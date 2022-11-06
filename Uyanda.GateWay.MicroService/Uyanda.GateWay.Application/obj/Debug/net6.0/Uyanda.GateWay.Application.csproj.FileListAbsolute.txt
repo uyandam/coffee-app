@@ -1,0 +1,12 @@
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Application\bin\Debug\net6.0\Uyanda.GateWay.Application.deps.json
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Application\bin\Debug\net6.0\Uyanda.GateWay.Application.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Application\bin\Debug\net6.0\Uyanda.GateWay.Application.pdb
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Application\obj\Debug\net6.0\Uyanda.GateWay.Application.csproj.AssemblyReference.cache
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Application\obj\Debug\net6.0\Uyanda.GateWay.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Application\obj\Debug\net6.0\Uyanda.GateWay.Application.AssemblyInfoInputs.cache
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Application\obj\Debug\net6.0\Uyanda.GateWay.Application.AssemblyInfo.cs
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Application\obj\Debug\net6.0\Uyanda.GateWay.Application.csproj.CoreCompileInputs.cache
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Application\obj\Debug\net6.0\Uyanda.GateWay.Application.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Application\obj\Debug\net6.0\refint\Uyanda.GateWay.Application.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Application\obj\Debug\net6.0\Uyanda.GateWay.Application.pdb
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Application\obj\Debug\net6.0\ref\Uyanda.GateWay.Application.dll

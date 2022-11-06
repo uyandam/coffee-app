@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "p9TiBb1F1mvg5tqPQTJ7C61zpZlnPzDRyd78uNgdjCRjyacWPCpUFcp2unSlSyBNOKMRM/gkUe3UDmE1Jc6ncw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\uyand\\source\\repos\\coffee-app\\Uyanda.CoffeeShop.MicroService\\Uyanda.CoffeeShop.Application\\Uyanda.CoffeeShop.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\uyand\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
+    "C:\\Users\\uyand\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\uyand\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
