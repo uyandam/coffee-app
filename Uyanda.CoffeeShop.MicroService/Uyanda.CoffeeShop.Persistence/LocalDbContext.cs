@@ -58,15 +58,15 @@ namespace Uyanda.CoffeeShop.Persistence
 
             modelBuilder.Entity<BeverageEntity>()
                 .HasData(
-                    new BeverageEntity { Id = 1, BeverageNameId = 1, BeverageTypeId = 1, BeverageSizeId = 1, Price = 15, Count = 0 },
-                    new BeverageEntity { Id = 2, BeverageNameId = 2, BeverageTypeId = 1, BeverageSizeId = 1, Price = 25, Count = 0 },
-                    new BeverageEntity { Id = 3, BeverageNameId = 3, BeverageTypeId = 2, BeverageSizeId = 1, Price = 30, Count = 0 },
-                    new BeverageEntity { Id = 4, BeverageNameId = 1, BeverageTypeId = 1, BeverageSizeId = 2, Price = 10, Count = 0 },
-                    new BeverageEntity { Id = 5, BeverageNameId = 2, BeverageTypeId = 1, BeverageSizeId = 2, Price = 15, Count = 0 },
-                    new BeverageEntity { Id = 6, BeverageNameId = 3, BeverageTypeId = 2, BeverageSizeId = 2, Price = 20, Count = 0 },
-                    new BeverageEntity { Id = 7, BeverageNameId = 1, BeverageTypeId = 1, BeverageSizeId = 3, Price = 20, Count = 0 },
-                    new BeverageEntity { Id = 8, BeverageNameId = 2, BeverageTypeId = 1, BeverageSizeId = 3, Price = 30, Count = 0 },
-                    new BeverageEntity { Id = 9, BeverageNameId = 3, BeverageTypeId = 2, BeverageSizeId = 3, Price = 40, Count = 0 }
+                    new BeverageEntity { Id = 1, BeverageNameId = 1, BeverageTypeId = 1, BeverageSizeId = 1, Price = 15 },
+                    new BeverageEntity { Id = 2, BeverageNameId = 2, BeverageTypeId = 1, BeverageSizeId = 1, Price = 25 },
+                    new BeverageEntity { Id = 3, BeverageNameId = 3, BeverageTypeId = 2, BeverageSizeId = 1, Price = 30 },
+                    new BeverageEntity { Id = 4, BeverageNameId = 1, BeverageTypeId = 1, BeverageSizeId = 2, Price = 10 },
+                    new BeverageEntity { Id = 5, BeverageNameId = 2, BeverageTypeId = 1, BeverageSizeId = 2, Price = 15 },
+                    new BeverageEntity { Id = 6, BeverageNameId = 3, BeverageTypeId = 2, BeverageSizeId = 2, Price = 20 },
+                    new BeverageEntity { Id = 7, BeverageNameId = 1, BeverageTypeId = 1, BeverageSizeId = 3, Price = 20 },
+                    new BeverageEntity { Id = 8, BeverageNameId = 2, BeverageTypeId = 1, BeverageSizeId = 3, Price = 30 },
+                    new BeverageEntity { Id = 9, BeverageNameId = 3, BeverageTypeId = 2, BeverageSizeId = 3, Price = 40 }
                 );
 
         }

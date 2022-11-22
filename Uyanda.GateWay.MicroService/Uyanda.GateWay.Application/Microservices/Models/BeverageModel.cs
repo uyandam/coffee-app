@@ -25,7 +25,5 @@ namespace Uyanda.GateWay.Application.Microservices.Models
         public BeverageSizeModel BeverageSize { get; set; }
 
         public decimal Price { get; set; }
-
-        public int Count { get; set; }
     }
 }

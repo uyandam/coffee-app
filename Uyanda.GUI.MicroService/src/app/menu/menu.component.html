@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+      <div class="col-sm">
+       <ul>
+        <p>Menu:</p>
+        <li *ngFor="let item of menu">
+
+            <div>
+                <p>Beverage: {{item.beverageName.name}}</p>
+                <p>Size: {{item.beverageSize.name}}</p>
+                <p>Type: {{item.beverageType.name}} </p>
+                <p>Price: R{{item.price}}</p>
+            </div>
+
+            <div>
+              <button type="button" class="btn btn-primary" (click)="addToCart(item)">
+                Add to Cart
+              </button>
+            </div>
+        </li>
+       </ul>
+      </div>
+    </div>
+  </div>
