@@ -26,5 +26,7 @@ namespace Uyanda.CoffeeShop.Persistence.Entities
         public BeverageSizeEntity BeverageSize { get; set; }
 
         public decimal Price { get; set; }
+
+        public int Count { get; set; }
     }
 }
