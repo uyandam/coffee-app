@@ -7,13 +7,9 @@ export class CartService {
     
     constructor(){}
 
-    addToCart(element: Beverage) {
+    addToCart(element: Beverage): void {
 
-        const isElementFound = this._cart.some((item: Beverage) => {
-            return item.id === element.id;
-        });
-
-        let itemIndex = this._cart.findIndex((item: Beverage) => element.id == item.id);
+        let itemIndex = this.elementIndext(element);
 
         console.log(`element count value ${element.count}`);
         
@@ -25,7 +21,46 @@ export class CartService {
 
         console.log(this._cart);
         
+    }
+
+    removeFromCart(element: Beverage): void{
+
+        let itemIndex = this.elementIndext(element);
+
+        if (itemIndex === -1){
+            return;
+        }
+
+        if (this._cart[itemIndex].count === 1){
+
+            this._cart.splice(itemIndex, 1);
+
+            return;
+        }
+
+        this._cart[itemIndex].count -= 1;
+
+        return;
+
+    }
+
+    getCart(): Beverage []{
         
+        //deep copy
+        var copiedElement = JSON.parse(JSON.stringify(this._cart));
+
+        return copiedElement;
+        
+    }
+
+    private elementIndext(element: Beverage): number {
+        const isElementFound = this._cart.some((item: Beverage) => {
+            return item.id === element.id;
+        });
+
+        let itemIndex = this._cart.findIndex((item: Beverage) => element.id == item.id);
+
+        return itemIndex;
     }
 
 

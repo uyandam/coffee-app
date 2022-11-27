@@ -21,18 +21,28 @@ export class MenuComponent implements OnInit {
       
       this.menu = element;
 
-      
-      
     });
   }
 
-  addToCart(element: Beverage){
+  addToCart(element: Beverage): void{
 
     //deep copy
 
     var copiedElement = JSON.parse(JSON.stringify(element));
 
     this._cartService.addToCart(copiedElement);
+  }
+
+  removeFromCart(element: Beverage): void {
+
+    //deep copy
+    var copiedElement = JSON.parse(JSON.stringify(element));
+
+    this._cartService.removeFromCart(copiedElement);
+
+    console.log(this._cartService.getCart());
+    
+
   }
 
 
