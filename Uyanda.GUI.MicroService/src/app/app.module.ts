@@ -8,6 +8,7 @@ import { MenuComponent } from './pages/menu/menu.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from  '@angular/common/http';
 import { CoffeeShopService } from './services/coffee-shop.service';
+import { CartService } from './services/cart.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CoffeeShopService } from './services/coffee-shop.service';
     HttpClientModule 
   ],
   providers: [
-    CoffeeShopService
+    CoffeeShopService,
+    CartService
   ],
   bootstrap: [AppComponent]
 })
