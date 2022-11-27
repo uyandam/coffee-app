@@ -9,12 +9,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from  '@angular/common/http';
 import { CoffeeShopService } from './services/coffee-shop.service';
 import { CartService } from './services/cart.service';
+import { CartComponent } from './pages/cart/cart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    MenuComponent
+    MenuComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
