@@ -39,6 +39,9 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                     b.Property<int>("BeverageTypeId")
                         .HasColumnType("int");
 
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
@@ -59,6 +62,7 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                             BeverageNameId = 1,
                             BeverageSizeId = 1,
                             BeverageTypeId = 1,
+                            Count = 1,
                             Price = 15m
                         },
                         new
@@ -67,6 +71,7 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                             BeverageNameId = 2,
                             BeverageSizeId = 1,
                             BeverageTypeId = 1,
+                            Count = 1,
                             Price = 25m
                         },
                         new
@@ -75,6 +80,7 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                             BeverageNameId = 3,
                             BeverageSizeId = 1,
                             BeverageTypeId = 2,
+                            Count = 1,
                             Price = 30m
                         },
                         new
@@ -83,6 +89,7 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                             BeverageNameId = 1,
                             BeverageSizeId = 2,
                             BeverageTypeId = 1,
+                            Count = 1,
                             Price = 10m
                         },
                         new
@@ -91,6 +98,7 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                             BeverageNameId = 2,
                             BeverageSizeId = 2,
                             BeverageTypeId = 1,
+                            Count = 1,
                             Price = 15m
                         },
                         new
@@ -99,6 +107,7 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                             BeverageNameId = 3,
                             BeverageSizeId = 2,
                             BeverageTypeId = 2,
+                            Count = 1,
                             Price = 20m
                         },
                         new
@@ -107,6 +116,7 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                             BeverageNameId = 1,
                             BeverageSizeId = 3,
                             BeverageTypeId = 1,
+                            Count = 1,
                             Price = 20m
                         },
                         new
@@ -115,6 +125,7 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                             BeverageNameId = 2,
                             BeverageSizeId = 3,
                             BeverageTypeId = 1,
+                            Count = 1,
                             Price = 30m
                         },
                         new
@@ -123,6 +134,7 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                             BeverageNameId = 3,
                             BeverageSizeId = 3,
                             BeverageTypeId = 2,
+                            Count = 1,
                             Price = 40m
                         });
                 });

@@ -26,5 +26,7 @@ namespace Uyanda.CoffeeShop.Application.Features.BeverageManagement.Models
         public BeverageSizeModel BeverageSize { get; set; }
 
         public decimal Price { get; set; }
+
+        public int Count { get; set; }
     }
 }
