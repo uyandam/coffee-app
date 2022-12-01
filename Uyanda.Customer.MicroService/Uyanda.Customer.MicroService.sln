@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uyanda.Customer.WebApi", "Uyanda.Customer.WebApi\Uyanda.Customer.WebApi.csproj", "{C243DCFF-E264-4A92-9E68-A63CF4FCF742}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uyanda.Customer.WebUi", "Uyanda.Customer.WebUi\Uyanda.Customer.WebUi.csproj", "{8726F157-8020-4DFE-AD84-F77A4A2CCD30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C243DCFF-E264-4A92-9E68-A63CF4FCF742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C243DCFF-E264-4A92-9E68-A63CF4FCF742}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C243DCFF-E264-4A92-9E68-A63CF4FCF742}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C243DCFF-E264-4A92-9E68-A63CF4FCF742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8726F157-8020-4DFE-AD84-F77A4A2CCD30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8726F157-8020-4DFE-AD84-F77A4A2CCD30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8726F157-8020-4DFE-AD84-F77A4A2CCD30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8726F157-8020-4DFE-AD84-F77A4A2CCD30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {343FFE93-A694-4F31-9524-5ADA0AAECABE}
+		SolutionGuid = {1FD97F6D-A61E-4C7B-B913-12EA40797DB6}
 	EndGlobalSection
 EndGlobal
