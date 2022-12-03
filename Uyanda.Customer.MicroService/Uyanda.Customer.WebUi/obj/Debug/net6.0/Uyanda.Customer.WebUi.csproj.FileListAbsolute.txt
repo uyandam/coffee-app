@@ -76,3 +76,5 @@ C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Custo
 C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.WebUi\bin\Debug\net6.0\Uyanda.Customer.Persistence.dll
 C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.WebUi\bin\Debug\net6.0\Uyanda.Customer.Application.pdb
 C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.WebUi\bin\Debug\net6.0\Uyanda.Customer.Persistence.pdb
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.WebUi\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.WebUi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

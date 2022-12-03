@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "szZn9kugRzWx8U3Eglus/4H4f9IW+9SMWbTj7OXfscIOrYzxfCxPZ91nAOdrAd7Jfe5MXOsTwB6Ods7sW9k3/Q==",
+  "dgSpecHash": "D8eEYwb2WJosT27/V6RQk1BKyLsFvcuhZBBrBMSqehR3KbEyT4m3ftQzEcx436tQ+kMxvmHX/k7I9BFu+ZLMqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\uyand\\source\\repos\\coffee-app\\Uyanda.Customer.MicroService\\Uyanda.Customer.WebUi\\Uyanda.Customer.WebUi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\uyand\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\uyand\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\uyand\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\uyand\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\uyand\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\uyand\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\uyand\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\uyand\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
     "C:\\Users\\uyand\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.0.1\\microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "C:\\Users\\uyand\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
