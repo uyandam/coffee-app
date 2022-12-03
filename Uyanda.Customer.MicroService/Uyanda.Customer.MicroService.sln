@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uyanda.Customer.Persistence
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uyanda.Customer.Application", "Uyanda.Customer.Application\Uyanda.Customer.Application.csproj", "{2AF96F86-C0C1-41A1-9F3B-E7B7F528D291}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uyanda.Customer.Service", "Uyanda.Customer.Service\Uyanda.Customer.Service.csproj", "{2916501A-C158-4A8B-9F76-4592A8733FC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2AF96F86-C0C1-41A1-9F3B-E7B7F528D291}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AF96F86-C0C1-41A1-9F3B-E7B7F528D291}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AF96F86-C0C1-41A1-9F3B-E7B7F528D291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2916501A-C158-4A8B-9F76-4592A8733FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2916501A-C158-4A8B-9F76-4592A8733FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2916501A-C158-4A8B-9F76-4592A8733FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2916501A-C158-4A8B-9F76-4592A8733FC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
