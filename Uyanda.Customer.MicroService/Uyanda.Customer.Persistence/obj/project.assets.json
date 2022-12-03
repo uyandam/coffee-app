@@ -852,6 +852,16 @@
             "rid": "win"
           }
         }
+      },
+      "Uyanda.Customer.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Uyanda.Customer.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Uyanda.Customer.Application.dll": {}
+        }
       }
     }
   },
@@ -3021,12 +3031,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Uyanda.Customer.Application/1.0.0": {
+      "type": "project",
+      "path": "../Uyanda.Customer.Application/Uyanda.Customer.Application.csproj",
+      "msbuildProject": "../Uyanda.Customer.Application/Uyanda.Customer.Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.0",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0",
+      "Uyanda.Customer.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3055,7 +3071,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\uyand\\source\\repos\\coffee-app\\Uyanda.Customer.MicroService\\Uyanda.Customer.Application\\Uyanda.Customer.Application.csproj": {
+              "projectPath": "C:\\Users\\uyand\\source\\repos\\coffee-app\\Uyanda.Customer.MicroService\\Uyanda.Customer.Application\\Uyanda.Customer.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
