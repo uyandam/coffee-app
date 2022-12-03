@@ -1,0 +1,12 @@
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Persistence\bin\Debug\net6.0\Uyanda.Customer.Persistence.deps.json
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Persistence\bin\Debug\net6.0\Uyanda.Customer.Persistence.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Persistence\bin\Debug\net6.0\Uyanda.Customer.Persistence.pdb
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Persistence\obj\Debug\net6.0\Uyanda.Customer.Persistence.csproj.AssemblyReference.cache
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Persistence\obj\Debug\net6.0\Uyanda.Customer.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Persistence\obj\Debug\net6.0\Uyanda.Customer.Persistence.AssemblyInfoInputs.cache
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Persistence\obj\Debug\net6.0\Uyanda.Customer.Persistence.AssemblyInfo.cs
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Persistence\obj\Debug\net6.0\Uyanda.Customer.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Persistence\obj\Debug\net6.0\Uyanda.Customer.Persistence.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Persistence\obj\Debug\net6.0\refint\Uyanda.Customer.Persistence.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Persistence\obj\Debug\net6.0\Uyanda.Customer.Persistence.pdb
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Persistence\obj\Debug\net6.0\ref\Uyanda.Customer.Persistence.dll
