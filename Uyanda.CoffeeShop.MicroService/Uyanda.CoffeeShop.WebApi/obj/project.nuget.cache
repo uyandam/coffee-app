@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SiSSbYYOKN5zcl4z8OMgJ45OwugX0McsV5QWYUvwn93brB+z1da7KreqU4Dr/e7T+6dSvle6qE4aSKeHoRjHWg==",
+  "dgSpecHash": "szVC8mRfSapoTyZu6tIM4hOSRPVKv0gaLR23tzB30H6msDCrpfBX3wvaFBR+nNgpZFQ/dUzV0EmjPV0FslJZ2Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\uyand\\source\\repos\\coffee-app\\Uyanda.CoffeeShop.MicroService\\Uyanda.CoffeeShop.WebApi\\Uyanda.CoffeeShop.WebApi.csproj",
   "expectedPackageFiles": [

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2+IbNOOZppjoEN77LiqxmFjymrEaQxFeBBwJN/0DQn+96P8wQh5L8DXZA/Y4ntwpbkyd6Wnz2Ia3hSwy258DAw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\uyand\\source\\repos\\coffee-app\\Uyanda.ForeignCurrency.MicroService\\Uyanda.ForeignCurrency.Integration\\Uyanda.ForeignCurrency.Integration.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\uyand\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\uyand\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

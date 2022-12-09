@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "vOZZ0eQH7CFjFuNd90ZRF2li2K3tCbn2ul22lLnmCpalYqMcVX1dDnBxxlhWi18vBRy7JS4/0Z7aFfyMIYC1tw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\uyand\\source\\repos\\coffee-app\\Uyanda.ForeignCurrency.MicroService\\Uyanda.ForeignCurrency.WebApi\\Uyanda.ForeignCurrency.WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\uyand\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\uyand\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\uyand\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\uyand\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\uyand\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\uyand\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\uyand\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\uyand\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

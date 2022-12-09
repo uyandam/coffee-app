@@ -1,0 +1,15 @@
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Integration\bin\Debug\net6.0\Uyanda.ForeignCurrency.Integration.deps.json
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Integration\bin\Debug\net6.0\Uyanda.ForeignCurrency.Integration.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Integration\bin\Debug\net6.0\Uyanda.ForeignCurrency.Integration.pdb
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Integration\obj\Debug\net6.0\Uyanda.ForeignCurrency.Integration.csproj.AssemblyReference.cache
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Integration\obj\Debug\net6.0\Uyanda.ForeignCurrency.Integration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Integration\obj\Debug\net6.0\Uyanda.ForeignCurrency.Integration.AssemblyInfoInputs.cache
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Integration\obj\Debug\net6.0\Uyanda.ForeignCurrency.Integration.AssemblyInfo.cs
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Integration\obj\Debug\net6.0\Uyanda.ForeignCurrency.Integration.csproj.CoreCompileInputs.cache
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Integration\obj\Debug\net6.0\Uyanda.ForeignCurrency.Integration.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Integration\obj\Debug\net6.0\refint\Uyanda.ForeignCurrency.Integration.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Integration\obj\Debug\net6.0\Uyanda.ForeignCurrency.Integration.pdb
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Integration\obj\Debug\net6.0\ref\Uyanda.ForeignCurrency.Integration.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Integration\bin\Debug\net6.0\Uyanda.ForeignCurrency.Application.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Integration\bin\Debug\net6.0\Uyanda.ForeignCurrency.Application.pdb
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Integration\obj\Debug\net6.0\Uyanda.ForeignCurrency.Integration.csproj.CopyComplete
