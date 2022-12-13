@@ -25,6 +25,8 @@ namespace Uyanda.ForeignCurrency.Integration.ApiLayer
 
         public async Task<decimal> GetExchangeRateAsync(string currencycode)
         {
+            currencycode.ToUpper();
+
             var client = new RestClient("https://api.apilayer.com/currency_data/convert?to=ZAR&from=" + currencycode + "&amount=1");
             
             var apiKey = configuration.GetSection("Secret:apilayer").Value;
