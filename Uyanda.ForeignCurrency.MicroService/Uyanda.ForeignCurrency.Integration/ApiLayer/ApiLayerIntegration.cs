@@ -10,15 +10,11 @@ namespace Uyanda.ForeignCurrency.Integration.ApiLayer
 {
     public class ApiLayerIntegration: IApiLayerIntegration
     {
-        private readonly IMapper mapper;
         private readonly IConfiguration configuration;
-        private readonly HttpClient http;
         
 
         public ApiLayerIntegration(IMapper mapper, HttpClient httpClient, IConfiguration configuration)
         {
-            this.mapper = mapper;
-            this.http = httpClient;
             this.configuration = configuration;
         }
 
