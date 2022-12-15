@@ -78,3 +78,8 @@ C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Custo
 C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.WebUi\bin\Debug\net6.0\Uyanda.Customer.Persistence.pdb
 C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.WebUi\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.WebUi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.WebUi\obj\Debug\net6.0\staticwebassets\msbuild.Uyanda.Customer.WebUi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.WebUi\obj\Debug\net6.0\staticwebassets\msbuild.build.Uyanda.Customer.WebUi.props
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.WebUi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Uyanda.Customer.WebUi.props
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.WebUi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Uyanda.Customer.WebUi.props
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.WebUi\obj\Debug\net6.0\staticwebassets.pack.json
