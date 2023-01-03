@@ -8,6 +8,6 @@ namespace Uyanda.ForeignCurrency.Application.Integration
 {
     public interface IApiLayerIntegration
     {
-        Task<decimal> GetExchangeRateAsync(string currencyCode);
+        Task<decimal> GetExchangeRateAsync(string sourceCurrency, string targetCurrency);
     }
 }

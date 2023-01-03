@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using RestSharp;
 using System.Text.Json.Nodes;
 using Newtonsoft.Json.Linq;
+using Uyanda.ForeignCurrency.Application.Features.CurrencyManagement.Models;
 
 namespace Uyanda.ForeignCurrency.Integration.ApiLayer
 {
@@ -23,11 +24,13 @@ namespace Uyanda.ForeignCurrency.Integration.ApiLayer
         }
 
 
-        public async Task<decimal> GetExchangeRateAsync(string currencycode)
+        public async Task<decimal> GetExchangeRateAsync(string sourceCurrency, string targetCurrency)
         {
-            currencycode.ToUpper();
+            targetCurrency.ToUpper();
+            
+            sourceCurrency.ToUpper();
 
-            var client = new RestClient("https://api.apilayer.com/currency_data/convert?to=ZAR&from=" + currencycode + "&amount=1");
+            var client = new RestClient("https://api.apilayer.com/currency_data/convert?to=" + sourceCurrency + "&from=" + targetCurrency + "&amount=1");
             
             var apiKey = configuration.GetSection("Secret:apilayer").Value;
 

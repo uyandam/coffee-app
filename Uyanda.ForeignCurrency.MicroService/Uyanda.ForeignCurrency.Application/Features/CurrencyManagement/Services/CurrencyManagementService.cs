@@ -16,9 +16,9 @@ namespace Uyanda.ForeignCurrency.Application.Features.CurrencyManagement.Service
             this.apiLayerIntegration = apiLayerIntegration;
         }
 
-        public async Task<decimal> GetExchangeRateAsync(string sourceCurrency)
+        public async Task<decimal> GetExchangeRateAsync(string sourceCurrency, string targetCurrency)
         {
-            var exchangeRate = await apiLayerIntegration.GetExchangeRateAsync(sourceCurrency);
+            var exchangeRate = await apiLayerIntegration.GetExchangeRateAsync(sourceCurrency, targetCurrency);
 
             return exchangeRate;
         }

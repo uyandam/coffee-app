@@ -16,11 +16,11 @@ namespace Uyanda.ForeignCurrency.WebApi.Controllers
         }
 
         [HttpPost("GetCurrencyExchangeRate")]
-        public async Task<IActionResult> GetForeignCurrency(string sourceCurrency)
+        public async Task<IActionResult> GetForeignCurrency(string sourceCurrency, string targetCurrency)
         {
             try
             {
-                var result = await currencyManagementService.GetExchangeRateAsync(sourceCurrency);
+                var result = await currencyManagementService.GetExchangeRateAsync(sourceCurrency, targetCurrency);
 
                 return Ok(result);
 

@@ -8,6 +8,6 @@ namespace Uyanda.ForeignCurrency.Application.Features.CurrencyManagement.Service
 {
     public interface ICurrencyManagementService
     {
-        Task<decimal> GetExchangeRateAsync(string sourceCurrency);
+        Task<decimal> GetExchangeRateAsync(string sourceCurrency, string targetCurrency);
     }
 }
