@@ -26,9 +26,6 @@ namespace Uyanda.ForeignCurrency.Integration.ApiLayer
 
         public async Task<decimal> GetExchangeRateAsync(string sourceCurrency, string targetCurrency)
         {
-            targetCurrency.ToUpper();
-            
-            sourceCurrency.ToUpper();
 
             var client = new RestClient("https://api.apilayer.com/currency_data/convert?to=" + sourceCurrency + "&from=" + targetCurrency + "&amount=1");
             

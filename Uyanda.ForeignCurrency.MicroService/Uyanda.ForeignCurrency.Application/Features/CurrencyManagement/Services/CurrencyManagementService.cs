@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Uyanda.ForeignCurrency.Application.Features.CurrencyManagement.Models;
 using Uyanda.ForeignCurrency.Application.Integration;
 
 namespace Uyanda.ForeignCurrency.Application.Features.CurrencyManagement.Services
@@ -16,11 +17,19 @@ namespace Uyanda.ForeignCurrency.Application.Features.CurrencyManagement.Service
             this.apiLayerIntegration = apiLayerIntegration;
         }
 
-        public async Task<decimal> GetExchangeRateAsync(string sourceCurrency, string targetCurrency)
+        public async Task<ExchangeRateModel> GetExchangeRateAsync(string sourceCurrency, string targetCurrency)
         {
+            targetCurrency.ToUpper();
+
+            sourceCurrency.ToUpper();
+
             var exchangeRate = await apiLayerIntegration.GetExchangeRateAsync(sourceCurrency, targetCurrency);
 
-            return exchangeRate;
+            return new ExchangeRateModel{ 
+                SourceCurrency = sourceCurrency,
+                DestinationCurrency= targetCurrency,
+                ExchangeRate = exchangeRate
+            };
         }
 
     }

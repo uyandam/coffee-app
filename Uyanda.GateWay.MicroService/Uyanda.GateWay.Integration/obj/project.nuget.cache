@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yICTak9FNC8QEmh+sHbozEE+6Q+2agEjYntiSYyaSNkV9ljOFjn1SbPHzFzwYsLi25LsujY4jU/cpn90YU3Z+g==",
+  "dgSpecHash": "TW8Lb3qaW+ly5df6Tkw7p9j+9BTA66eoS/MDEocw4xNp134pZSs9B5nkLrsIPagkHzqz9JdtzXL5lPP2Sz6i1g==",
   "success": true,
   "projectFilePath": "C:\\Users\\uyand\\source\\repos\\coffee-app\\Uyanda.GateWay.MicroService\\Uyanda.GateWay.Integration\\Uyanda.GateWay.Integration.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "C:\\Users\\uyand\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\uyand\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\uyand\\.nuget\\packages\\ocelot\\18.0.0\\ocelot.18.0.0.nupkg.sha512",
+    "C:\\Users\\uyand\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512",
     "C:\\Users\\uyand\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\uyand\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
