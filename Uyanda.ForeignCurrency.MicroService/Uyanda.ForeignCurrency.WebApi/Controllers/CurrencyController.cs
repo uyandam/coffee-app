@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Uyanda.ForeignCurrency.Application.Features.CurrencyManagement.Models;
 using Uyanda.ForeignCurrency.Application.Features.CurrencyManagement.Services;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -16,11 +17,12 @@ namespace Uyanda.ForeignCurrency.WebApi.Controllers
         }
 
         [HttpPost("GetCurrencyExchangeRate")]
-        public async Task<IActionResult> GetForeignCurrency(string sourceCurrency, string targetCurrency)
+        public async Task<IActionResult> GetForeignCurrency(ExchangeRateModel exchangeRate)
         {
             try
             {
-                var result = await currencyManagementService.GetExchangeRateAsync(sourceCurrency, targetCurrency);
+
+                var result = await currencyManagementService.GetExchangeRateAsync(exchangeRate.SourceCurrency, exchangeRate.DestinationCurrency);
 
                 return Ok(result);
 

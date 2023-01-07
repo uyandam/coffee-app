@@ -10,6 +10,6 @@ namespace Uyanda.GateWay.Application.Microservices.ForeignCurrencyMicroService
 {
     public interface IForeignCurrencyMicroService
     {
-        Task<ExchangeRateModel> GetExchangeRateAsync(string sourceCurrency, string targetCurrency, RestClient restClient);
+        Task<ExchangeRateModel> GetExchangeRateAsync(string sourceCurrency, string targetCurrency);
     }
 }

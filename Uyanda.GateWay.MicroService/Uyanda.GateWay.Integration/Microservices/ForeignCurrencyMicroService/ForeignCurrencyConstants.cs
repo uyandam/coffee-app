@@ -8,6 +8,6 @@ namespace Uyanda.GateWay.Integration.Microservices.ForeignCurrencyMicroService
 {
     public class ForeignCurrencyConstants
     {
-        public const string BaseUrl = "https://localhost:7150/api/Currency";
+        public const string BaseUrl = "https://localhost:7237/api/Currency";
     }
 }
