@@ -35,17 +35,15 @@ namespace Uyanda.GateWay.Integration.Microservices.ForeignCurrencyMicroService
 
             var data = new ExchangeRateModel { SourceCurrency = sourceCurrency, DestinationCurrency = targetCurrency };
 
-            var payload = new StringContent(JsonSerializer.Serialize(data));
+            var payload = new StringContent(JsonSerializer.Serialize(data), Encoding.UTF8, "application/json");
 
             var request = await client.PostAsync(url, payload);
 
             var content = await request.Content.ReadAsStringAsync();
 
-            var rs = JObject.Parse(content);
+            var rs = JObject.Parse(content)["exchangeRate"];
 
-            Console.WriteLine(rs);
-
-            return new ExchangeRateModel { SourceCurrency = sourceCurrency, DestinationCurrency = targetCurrency};
+            return new ExchangeRateModel { SourceCurrency = sourceCurrency, DestinationCurrency = targetCurrency, ExchangeRate = (decimal)rs };
 
         }
     }
