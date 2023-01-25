@@ -32,10 +32,13 @@ namespace Uyanda.CoffeeShop.Persistence.Accessors
                 .Include(row => row.BeverageName)
                 .Include(row => row.BeverageType)
                 .Include(row => row.BeverageSize)
+                .Include(row => row.Price)
                 .ToArrayAsync();
 
             return menu.Select(ToModel).ToArray();
         }
+            
+      
 
         private BeverageTypeEntity ToEntity (BeverageTypeModel model) => mapper.Map<BeverageTypeEntity>(model);
         private BeverageTypeModel ToModel (BeverageTypeEntity entity) => mapper.Map<BeverageTypeModel>(entity);
@@ -45,5 +48,7 @@ namespace Uyanda.CoffeeShop.Persistence.Accessors
 
         private BeverageEntity ToEntity(BeverageModel model) => mapper.Map<BeverageEntity>(model);
         private BeverageModel ToModel(BeverageEntity entity) => mapper.Map<BeverageModel>(entity);
+
+        
     }
 }

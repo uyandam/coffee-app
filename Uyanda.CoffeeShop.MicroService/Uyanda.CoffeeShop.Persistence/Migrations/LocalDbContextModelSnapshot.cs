@@ -42,8 +42,8 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                     b.Property<int>("Count")
                         .HasColumnType("int");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<int>("PriceId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -52,6 +52,8 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                     b.HasIndex("BeverageSizeId");
 
                     b.HasIndex("BeverageTypeId");
+
+                    b.HasIndex("PriceId");
 
                     b.ToTable("Beverages", "CoffeeShop");
 
@@ -63,7 +65,7 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                             BeverageSizeId = 1,
                             BeverageTypeId = 1,
                             Count = 1,
-                            Price = 15m
+                            PriceId = 1
                         },
                         new
                         {
@@ -72,7 +74,7 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                             BeverageSizeId = 1,
                             BeverageTypeId = 1,
                             Count = 1,
-                            Price = 25m
+                            PriceId = 2
                         },
                         new
                         {
@@ -81,7 +83,7 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                             BeverageSizeId = 1,
                             BeverageTypeId = 2,
                             Count = 1,
-                            Price = 30m
+                            PriceId = 3
                         },
                         new
                         {
@@ -90,7 +92,7 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                             BeverageSizeId = 2,
                             BeverageTypeId = 1,
                             Count = 1,
-                            Price = 10m
+                            PriceId = 4
                         },
                         new
                         {
@@ -99,7 +101,7 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                             BeverageSizeId = 2,
                             BeverageTypeId = 1,
                             Count = 1,
-                            Price = 15m
+                            PriceId = 5
                         },
                         new
                         {
@@ -108,7 +110,7 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                             BeverageSizeId = 2,
                             BeverageTypeId = 2,
                             Count = 1,
-                            Price = 20m
+                            PriceId = 6
                         },
                         new
                         {
@@ -117,7 +119,7 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                             BeverageSizeId = 3,
                             BeverageTypeId = 1,
                             Count = 1,
-                            Price = 20m
+                            PriceId = 7
                         },
                         new
                         {
@@ -126,7 +128,7 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                             BeverageSizeId = 3,
                             BeverageTypeId = 1,
                             Count = 1,
-                            Price = 30m
+                            PriceId = 8
                         },
                         new
                         {
@@ -135,7 +137,7 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                             BeverageSizeId = 3,
                             BeverageTypeId = 2,
                             Count = 1,
-                            Price = 40m
+                            PriceId = 9
                         });
                 });
 
@@ -239,6 +241,82 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                         });
                 });
 
+            modelBuilder.Entity("Uyanda.CoffeeShop.Persistence.Entities.PriceEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Currency")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Prices", "CoffeeShop");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Currency = "ZAR",
+                            Price = 15m
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Currency = "ZAR",
+                            Price = 25m
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Currency = "ZAR",
+                            Price = 30m
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Currency = "ZAR",
+                            Price = 10m
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Currency = "ZAR",
+                            Price = 15m
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Currency = "ZAR",
+                            Price = 20m
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Currency = "ZAR",
+                            Price = 20m
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Currency = "ZAR",
+                            Price = 30m
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Currency = "ZAR",
+                            Price = 40m
+                        });
+                });
+
             modelBuilder.Entity("Uyanda.CoffeeShop.Persistence.Entities.BeverageEntity", b =>
                 {
                     b.HasOne("Uyanda.CoffeeShop.Persistence.Entities.BeverageNameEntity", "BeverageName")
@@ -259,11 +337,19 @@ namespace Uyanda.CoffeeShop.Persistence.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Uyanda.CoffeeShop.Persistence.Entities.PriceEntity", "Price")
+                        .WithMany()
+                        .HasForeignKey("PriceId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("BeverageName");
 
                     b.Navigation("BeverageSize");
 
                     b.Navigation("BeverageType");
+
+                    b.Navigation("Price");
                 });
 #pragma warning restore 612, 618
         }
