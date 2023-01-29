@@ -1,4 +1,4 @@
-<p>menu works!</p>
+<!-- <p>menu works!</p> -->
 <!-- <div class="dropdown">
     <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
       Options
@@ -10,10 +10,10 @@
     </ul>
   </div>
    -->
-
+<!-- 
    <div>
     <a routerLink="/cart">Go to Cart</a>
-   </div>
+   </div> -->
 
 <div class="col-xs-8" class="list-group">
   <li *ngFor="let item of menu" class="list-group-item list-group-item-primary">
@@ -24,11 +24,15 @@
       </div>
       
       <div name="cost">
-        Cost: R{{item.price}}
+        Cost: R{{item.price.price}}
       </div>
 
       <div name="size">
         Size: {{item.beverageSize.name}}
+      </div>
+
+      <div name="currency">
+        Currency: {{item.price.currency}}
       </div>
 
     </div>
