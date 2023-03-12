@@ -35,6 +35,12 @@
         Currency: {{item.price.currency}}
       </div>
 
+      <label > Add items:
+
+        <input type="number" [(ngModel)]="item.count" name="count" min="0" max="100" required >
+
+      </label>
+
     </div>
 
     <button mat-raised-button class="btn btn-primary me-1" (click)="addToCart(item)">

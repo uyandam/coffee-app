@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './pages/header/header.component';
@@ -10,6 +9,7 @@ import { HttpClientModule } from  '@angular/common/http';
 import { CoffeeShopService } from './services/coffee-shop.service';
 import { CartService } from './services/cart.service';
 import { CartComponent } from './pages/cart/cart.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,9 @@ import { CartComponent } from './pages/cart/cart.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    HttpClientModule 
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [
     CoffeeShopService,
