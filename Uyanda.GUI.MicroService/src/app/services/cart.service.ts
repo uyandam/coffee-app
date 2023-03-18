@@ -53,6 +53,17 @@ export class CartService {
         
     }
 
+    getItemCount(element: Beverage): number {
+        let itemIndex = this.elementIndext(element);
+
+        if (itemIndex === -1){
+            return 0;
+        }
+
+        return this._cart[itemIndex].count;
+
+    }
+
     private elementIndext(element: Beverage): number {
         const isElementFound = this._cart.some((item: Beverage) => {
             return item.id === element.id;
