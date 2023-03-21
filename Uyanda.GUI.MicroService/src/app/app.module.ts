@@ -10,13 +10,15 @@ import { CoffeeShopService } from './services/coffee-shop.service';
 import { CartService } from './services/cart.service';
 import { CartComponent } from './pages/cart/cart.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CheckoutComponent } from './pages/checkout/checkout.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     MenuComponent,
-    CartComponent
+    CartComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
