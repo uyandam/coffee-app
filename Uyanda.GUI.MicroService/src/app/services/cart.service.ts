@@ -64,6 +64,17 @@ export class CartService {
 
     }
 
+    //check if item exists in cart
+
+    isElementFound(element: Beverage): boolean {
+
+        return this._cart.some((item: Beverage) => {
+            return item.id === element.id;
+        });
+
+    }
+
+
     private elementIndext(element: Beverage): number {
         const isElementFound = this._cart.some((item: Beverage) => {
             return item.id === element.id;

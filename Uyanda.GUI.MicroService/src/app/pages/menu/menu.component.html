@@ -35,7 +35,14 @@
         Currency: {{item.price.currency}}
       </div>
       
-      
+      <!-- <div name="cart" >
+        Number in cart: {{item.count}}
+      </div> -->
+
+      <div name="cart" >
+        Number in cart: {{getItemCountInCart(item)}}
+      </div>
+
       <label > Add items:
 
         <input type="number" [(ngModel)]="item.count" name="count" min="0" max="100" required >

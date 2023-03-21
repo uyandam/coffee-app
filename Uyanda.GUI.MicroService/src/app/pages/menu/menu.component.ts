@@ -1,6 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
-import { NgModel } from '@angular/forms';
+import { Component, OnInit, Renderer2, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
 import { Beverage } from 'src/app/models/beverage.model';
 import { CartService } from 'src/app/services/cart.service';
 import { CoffeeShopService } from 'src/app/services/coffee-shop.service';
@@ -17,7 +16,7 @@ export class MenuComponent implements OnInit {
 
   public menu: Beverage[] = [];
 
-  constructor(private _coffeeShopService: CoffeeShopService, private _cartService: CartService) { }
+  constructor(private _coffeeShopService: CoffeeShopService, private _cartService: CartService, private renderer: Renderer2) { }
 
   ngOnInit(): void {
     this._coffeeShopService.menu()
@@ -36,6 +35,7 @@ export class MenuComponent implements OnInit {
     var copiedElement = JSON.parse(JSON.stringify(element));
 
     this._cartService.addToCart(copiedElement);
+
   }
 
   removeFromCart(element: Beverage): void {
@@ -50,5 +50,10 @@ export class MenuComponent implements OnInit {
 
   }
 
+  //count cart item elements
+  getItemCountInCart(element: Beverage): number {
+    return this._cartService.getItemCount(element);
+  }
 
+  
 }
