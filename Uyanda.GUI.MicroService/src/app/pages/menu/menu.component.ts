@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit, Renderer2, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
+import { Component, OnInit, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
 import { Beverage } from 'src/app/models/beverage.model';
 import { CartService } from 'src/app/services/cart.service';
 import { CoffeeShopService } from 'src/app/services/coffee-shop.service';
@@ -16,7 +16,7 @@ export class MenuComponent implements OnInit {
 
   public menu: Beverage[] = [];
 
-  constructor(private _coffeeShopService: CoffeeShopService, private _cartService: CartService, private renderer: Renderer2) { }
+  constructor(private _coffeeShopService: CoffeeShopService, private _cartService: CartService) { }
 
   ngOnInit(): void {
     this._coffeeShopService.menu()
