@@ -1,4 +1,5 @@
 import { Injectable } from "@angular/core";
+import { Data } from "@angular/router";
 import { Beverage } from "../models/beverage.model";
 
 @Injectable()
@@ -31,14 +32,23 @@ export class CartService {
             return;
         }
 
-        if (this._cart[itemIndex].count === 1){
+        if (this._cart[itemIndex].count === 1 && element.count > 0){
 
             this._cart.splice(itemIndex, 1);
 
             return;
         }
 
-        this._cart[itemIndex].count -= 1;
+        
+        if (this._cart[itemIndex].count < element.count || this._cart[itemIndex].count === element.count){
+
+            this._cart.splice(itemIndex, 1);
+
+            return;
+        }
+
+        this._cart[itemIndex].count = this._cart[itemIndex].count - element.count;
+
 
         return;
 
