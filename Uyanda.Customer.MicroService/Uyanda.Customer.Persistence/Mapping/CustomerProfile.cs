@@ -15,6 +15,10 @@ namespace Uyanda.Customer.Persistence.Mapping
         {
             CreateMap<CustomerModel, CustomerEntity>();
             CreateMap<CustomerEntity, CustomerModel>();
+
+            CreateMap< ContactDetailsEntity, ContactDetailsModel>();
+            CreateMap<ContactDetailsModel, ContactDetailsEntity>();
+
         }
         
     }

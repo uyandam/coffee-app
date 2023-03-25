@@ -39,5 +39,7 @@ namespace Uyanda.Customer.Persistence
         }
 
         public DbSet<CustomerEntity> Customers { get; set; }
+
+        public DbSet<ContactDetailsEntity> Contacts { get; set; }
     }
 }
