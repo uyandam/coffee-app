@@ -16,6 +16,7 @@ namespace Uyanda.Customer.Application.Features.CustomerManagement.Models
 
         public int Points { get; set; }
 
+        public int ContactDetailsId { get; set; }
         public ContactDetailsModel? ContactDetails { get; set; }
     }
 }

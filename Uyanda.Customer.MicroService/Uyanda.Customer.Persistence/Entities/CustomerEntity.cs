@@ -17,6 +17,8 @@ namespace Uyanda.Customer.Persistence.Entities
 
         public int Points { get; set; }
 
+        public int ContactDetailsId { get; set; }
+
         public ContactDetailsEntity? ContactDetails { get; set; }
     }
 }

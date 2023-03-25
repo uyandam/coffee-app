@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Uyanda.Customer.Persistence.Entities;
 
 namespace Uyanda.Customer.Persistence
 {
@@ -30,8 +31,13 @@ namespace Uyanda.Customer.Persistence
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.HasDefaultSchema(Constants.DataSchema);
+
+            modelBuilder.Entity<CustomerEntity>()
+                .HasIndex(c => new { c.ContactDetailsId })
+                .IsUnique();
+
         }
 
-
+        public DbSet<CustomerEntity> Customers { get; set; }
     }
 }

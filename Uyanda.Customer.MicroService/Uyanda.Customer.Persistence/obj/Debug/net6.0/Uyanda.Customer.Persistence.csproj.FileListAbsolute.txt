@@ -13,3 +13,5 @@ C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Custo
 C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Persistence\bin\Debug\net6.0\Uyanda.Customer.Application.dll
 C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Persistence\bin\Debug\net6.0\Uyanda.Customer.Application.pdb
 C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Persistence\obj\Debug\net6.0\Uyanda.Customer.Persistence.csproj.CopyComplete
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Persistence\bin\Debug\net6.0\Uyanda.Customer.Persistence.runtimeconfig.json
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Persistence\obj\Debug\net6.0\Uyanda.Customer.Persistence.genruntimeconfig.cache
