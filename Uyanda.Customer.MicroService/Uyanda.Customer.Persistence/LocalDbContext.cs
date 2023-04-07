@@ -36,6 +36,15 @@ namespace Uyanda.Customer.Persistence
                 .HasIndex(c => new { c.ContactDetailsId })
                 .IsUnique();
 
+
+            modelBuilder.Entity<ContactDetailsEntity>()
+                .HasData(
+                    new ContactDetailsEntity { Id = 1, EmailAddress = "dummyemail@example.com", PhoneNumber = "0720000111"}
+                );
+
+            modelBuilder.Entity<CustomerEntity>()
+                .HasData(new CustomerEntity { Id = 1, ContactDetailsId = 1, Name = "The Rza", Points = 5, Surname = "The Gza" });
+
         }
 
         public DbSet<CustomerEntity> Customers { get; set; }

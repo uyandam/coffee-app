@@ -39,6 +39,14 @@ namespace Uyanda.Customer.Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Contacts", "Customer");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            EmailAddress = "dummyemail@example.com",
+                            PhoneNumber = "0720000111"
+                        });
                 });
 
             modelBuilder.Entity("Uyanda.Customer.Persistence.Entities.CustomerEntity", b =>
@@ -67,6 +75,16 @@ namespace Uyanda.Customer.Persistence.Migrations
                         .IsUnique();
 
                     b.ToTable("Customers", "Customer");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            ContactDetailsId = 1,
+                            Name = "The Rza",
+                            Points = 5,
+                            Surname = "The Gza"
+                        });
                 });
 
             modelBuilder.Entity("Uyanda.Customer.Persistence.Entities.CustomerEntity", b =>
