@@ -13,5 +13,6 @@ namespace Uyanda.Customer.Application.Features.CustomerManagement.Services
     {
         Task<GetCustomersResult> GetCustomersAsync();
         Task<GetCustomerStatusResult> GetCustomerStatusAsync(GetCustomerStatusCommand customerStatus);
+        Task<GetCustomerResult> GetCustomerResultAsync(GetCustomerCommand customer);
     }
 }

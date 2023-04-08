@@ -50,6 +50,21 @@ namespace Uyanda.Customer.WebUi.Controllers
             }
         }
 
+        [HttpPost("GetCustomer")]
+        public async Task<IActionResult> GetCustomerAsync(GetCustomerCommand customerCommand)
+        {
+            try
+            {
+                var result = await customerManagementService.GetCustomerResultAsync(customerCommand);
+
+                return Ok(result);
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, e);
+            }
+        }
+
         //---------------------------------
         // GET: api/<ValuesController>
         [HttpGet]

@@ -56,6 +56,20 @@ namespace Uyanda.Customer.Persistence.Accessors
 
         }
 
+        public async Task<CustomerModel> GetCustomerAsync(CustomerModel customer)
+        {
+            var customerResult = await localDbContext.Customers
+                .AsNoTracking()
+                .Where(c => c.Id == customer.Id ||
+                    c.ContactDetails.EmailAddress == customer.ContactDetails.EmailAddress ||
+                    c.ContactDetails.PhoneNumber == customer.ContactDetails.PhoneNumber)
+                .Include(c => c.ContactDetails)
+                .FirstOrDefaultAsync();
+
+            return ToModel(customerResult);
+        }
+
+
         private CustomerModel ToModel(CustomerEntity entity) => mapper.Map<CustomerModel>(entity);
     }
 }
