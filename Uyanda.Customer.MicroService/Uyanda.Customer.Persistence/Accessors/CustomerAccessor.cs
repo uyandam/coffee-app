@@ -69,7 +69,36 @@ namespace Uyanda.Customer.Persistence.Accessors
             return ToModel(customerResult);
         }
 
+        public async Task<CustomerStatusModel> AddCustomerAsync(CustomerModel customer)
+        {
+            await localDbContext.AddAsync(ToEntity(customer));
+
+            await localDbContext.SaveChangesAsync();
+
+            //in future iterations, will remove the below block and put it in a method in order to reduce code duplications. That is
+            // I have not forgotten the DRY principle and Spartan programming
+
+            var isCustomerFoundResult = await localDbContext.Customers
+                .AsNoTracking()
+                .Where(c => c.ContactDetails.PhoneNumber == customer.ContactDetails.PhoneNumber ||
+                c.ContactDetails.EmailAddress == customer.ContactDetails.EmailAddress)
+                .AnyAsync();
+
+            if (isCustomerFoundResult)
+            {
+                var customerIdResult = await localDbContext.Customers
+                    .AsNoTracking()
+                    .Where(c => c.ContactDetails.PhoneNumber == customer.ContactDetails.PhoneNumber ||
+                        c.ContactDetails.EmailAddress == customer.ContactDetails.EmailAddress)
+                    .FirstAsync();
+
+                return new CustomerStatusModel { CustomerId = customerIdResult.Id, IsFound = isCustomerFoundResult };
+            }
+
+            return new CustomerStatusModel { IsFound = isCustomerFoundResult };
+        }
 
         private CustomerModel ToModel(CustomerEntity entity) => mapper.Map<CustomerModel>(entity);
+        private CustomerEntity ToEntity(CustomerModel model) => mapper.Map<CustomerEntity>(model);
     }
 }

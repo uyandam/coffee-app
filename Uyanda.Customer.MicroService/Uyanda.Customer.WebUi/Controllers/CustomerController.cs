@@ -2,6 +2,7 @@
 using Uyanda.Customer.Application.Features.CustomerManagement.Models;
 using Uyanda.Customer.Application.Features.CustomerManagement.Requests;
 using Uyanda.Customer.Application.Features.CustomerManagement.Services;
+using Uyanda.Customer.Persistence.Accessors;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -56,6 +57,21 @@ namespace Uyanda.Customer.WebUi.Controllers
             try
             {
                 var result = await customerManagementService.GetCustomerResultAsync(customerCommand);
+
+                return Ok(result);
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, e);
+            }
+        }
+
+        [HttpPost("AddCustomer")]
+        public async Task <IActionResult> AddCustomerAsync (AddCustomerCommand customer)
+        {
+            try
+            {
+                var result = await customerManagementService.AddCustomerAsync(customer);
 
                 return Ok(result);
             }

@@ -11,8 +11,12 @@ namespace Uyanda.Customer.Application.Features.CustomerManagement.Services
 {
     public interface ICustomerManagementService
     {
-        Task<GetCustomersResult> GetCustomersAsync();
-        Task<GetCustomerStatusResult> GetCustomerStatusAsync(GetCustomerStatusCommand customerStatus);
-        Task<GetCustomerResult> GetCustomerResultAsync(GetCustomerCommand customer);
+        //Add methods
+        Task <GetCustomersResult> GetCustomersAsync();
+        Task <GetCustomerStatusResult> GetCustomerStatusAsync(GetCustomerStatusCommand customerStatus);
+        Task <GetCustomerResult> GetCustomerResultAsync(GetCustomerCommand customer);
+
+        //Get methods
+        Task <AddCustomerResult> AddCustomerAsync(AddCustomerCommand customer);
     }
 }

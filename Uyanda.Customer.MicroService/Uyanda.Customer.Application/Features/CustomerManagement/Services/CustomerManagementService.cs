@@ -41,5 +41,11 @@ namespace Uyanda.Customer.Application.Features.CustomerManagement.Services
             return new GetCustomerResult { Customer = customerResult };
         }
 
+        public async Task<AddCustomerResult> AddCustomerAsync(AddCustomerCommand customer)
+        {
+            var addCustomerResult = await customerAccessor.AddCustomerAsync(customer.Customer);
+
+            return new AddCustomerResult { CustomerStatus = addCustomerResult };
+        }
     }
 }
