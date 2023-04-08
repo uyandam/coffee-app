@@ -33,7 +33,28 @@ namespace Uyanda.Customer.Persistence.Accessors
             return customers.Select(ToModel).ToArray();
         }
 
+        public async Task<CustomerStatusModel> GetCustomerStatusAsync(CustomerModel customer)
+        {
+            var isCustomerFoundResult = await localDbContext.Customers
+                .AsNoTracking()
+                .Where(c => c.ContactDetails.PhoneNumber == customer.ContactDetails.PhoneNumber || 
+                c.ContactDetails.EmailAddress == customer.ContactDetails.EmailAddress)
+                .AnyAsync();
 
+            if (isCustomerFoundResult)
+            {
+                var customerIdResult = await localDbContext.Customers
+                    .AsNoTracking()
+                    .Where(c => c.ContactDetails.PhoneNumber == customer.ContactDetails.PhoneNumber ||
+                        c.ContactDetails.EmailAddress == customer.ContactDetails.EmailAddress)
+                    .FirstAsync();
+
+                return new CustomerStatusModel { CustomerId = customerIdResult.Id, IsFound = isCustomerFoundResult };
+            }
+
+            return new CustomerStatusModel { IsFound = isCustomerFoundResult };
+
+        }
 
         private CustomerModel ToModel(CustomerEntity entity) => mapper.Map<CustomerModel>(entity);
     }

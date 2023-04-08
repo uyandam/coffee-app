@@ -10,5 +10,7 @@ namespace Uyanda.Customer.Application.Features.CustomerManagement.Persistence
     public interface ICustomerAccessor
     {
         Task<CustomerModel[]> GetCustomersAsync();
+
+        Task<CustomerStatusModel> GetCustomerStatusAsync(CustomerModel customer);
     }
 }
