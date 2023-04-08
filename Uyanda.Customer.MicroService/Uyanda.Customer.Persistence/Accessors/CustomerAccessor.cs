@@ -1,13 +1,14 @@
 ﻿using AutoMapper;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Uyanda.Customer.Application.Features.CustomerManagement.Models;
 using Uyanda.Customer.Application.Features.CustomerManagement.Persistence;
 using Uyanda.Customer.Persistence.Entities;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace Uyanda.Customer.Persistence.Accessors
 {
@@ -26,6 +27,7 @@ namespace Uyanda.Customer.Persistence.Accessors
         {
             var customers = await localDbContext.Customers
                 .AsNoTracking()
+                .Include(row => row.ContactDetails)
                 .ToArrayAsync();
 
             return customers.Select(ToModel).ToArray();
