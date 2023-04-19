@@ -12,7 +12,7 @@
 
 ## CoffeeShop
 1. Invoices
-2.  Menue
+2.  Menu
 3.  Orders
 4. Stores currency in expiring cache
 
@@ -26,3 +26,6 @@
 ## GateWay
 1.  Connects to all microservices
 2.  UI Connects to it only
+
+
+# Microservice APIs
