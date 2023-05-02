@@ -4,7 +4,7 @@ import { ExchangeRate } from "./exchangeRate.model";
 
 export interface Invoice {
     id: number;
-    beverage: Beverage;
+    cart: Beverage [];
     totalCost: number;
     exchangeRate: ExchangeRate;
     customer: Customer;
