@@ -13,6 +13,12 @@ export interface BeverageSize {
     name: string;
 }
 
+export interface Price {
+    id: number;
+    currency: string;
+    price: number
+}
+
 export interface Beverage {
     id: number;
     beverageNameId: number;
@@ -21,6 +27,6 @@ export interface Beverage {
     beverageType: BeverageType;
     beverageSizeId: number;
     beverageSize: BeverageSize;
-    price: number;
+    price: Price;
     count: number;
 }

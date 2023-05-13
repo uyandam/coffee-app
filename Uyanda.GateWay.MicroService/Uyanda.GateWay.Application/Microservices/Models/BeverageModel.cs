@@ -18,13 +18,13 @@ namespace Uyanda.GateWay.Application.Microservices.Models
 
         public BeverageTypeModel BeverageType { get; set; }
 
-       
-
         public int BeverageSizeId { get; set; }
 
         public BeverageSizeModel BeverageSize { get; set; }
 
-        public decimal Price { get; set; }
+        public int PriceId { get; set; }
+
+        public PriceModel Price { get; set; }
 
         public int Count { get; set; }
     }

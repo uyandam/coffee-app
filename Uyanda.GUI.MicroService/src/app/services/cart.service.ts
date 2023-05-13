@@ -1,4 +1,5 @@
 import { Injectable } from "@angular/core";
+import { Data } from "@angular/router";
 import { Beverage } from "../models/beverage.model";
 
 @Injectable()
@@ -31,14 +32,23 @@ export class CartService {
             return;
         }
 
-        if (this._cart[itemIndex].count === 1){
+        if (this._cart[itemIndex].count === 1 && element.count > 0){
 
             this._cart.splice(itemIndex, 1);
 
             return;
         }
 
-        this._cart[itemIndex].count -= 1;
+        
+        if (this._cart[itemIndex].count < element.count || this._cart[itemIndex].count === element.count){
+
+            this._cart.splice(itemIndex, 1);
+
+            return;
+        }
+
+        this._cart[itemIndex].count = this._cart[itemIndex].count - element.count;
+
 
         return;
 
@@ -52,6 +62,28 @@ export class CartService {
         return copiedElement;
         
     }
+
+    getItemCount(element: Beverage): number {
+        let itemIndex = this.elementIndext(element);
+
+        if (itemIndex === -1){
+            return 0;
+        }
+
+        return this._cart[itemIndex].count;
+
+    }
+
+    //check if item exists in cart
+
+    isElementFound(element: Beverage): boolean {
+
+        return this._cart.some((item: Beverage) => {
+            return item.id === element.id;
+        });
+
+    }
+
 
     private elementIndext(element: Beverage): number {
         const isElementFound = this._cart.some((item: Beverage) => {

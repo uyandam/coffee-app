@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "K1rFbAyZkf95oDUARFIzf8Y59LKe7oOPxo6T3V+YP1dLJRr1FsfVlrgskyTVUvWPdL7z/L9QDmzmYLRDQDyQeg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\uyand\\source\\repos\\coffee-app\\Uyanda.Customer.MicroService\\Uyanda.Customer.Application\\Uyanda.Customer.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\uyand\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,8 +1,10 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
 import { Beverage } from 'src/app/models/beverage.model';
 import { CartService } from 'src/app/services/cart.service';
 import { CoffeeShopService } from 'src/app/services/coffee-shop.service';
+
+
 
 @Component({
   selector: 'app-menu',
@@ -10,6 +12,7 @@ import { CoffeeShopService } from 'src/app/services/coffee-shop.service';
 })
 export class MenuComponent implements OnInit {
   
+  defaultCount: number = 0;
 
   public menu: Beverage[] = [];
 
@@ -22,6 +25,7 @@ export class MenuComponent implements OnInit {
       this.menu = element;
 
     });
+    this.defaultCount = 0;
   }
 
   addToCart(element: Beverage): void{
@@ -31,6 +35,7 @@ export class MenuComponent implements OnInit {
     var copiedElement = JSON.parse(JSON.stringify(element));
 
     this._cartService.addToCart(copiedElement);
+
   }
 
   removeFromCart(element: Beverage): void {
@@ -45,5 +50,10 @@ export class MenuComponent implements OnInit {
 
   }
 
+  //count cart item elements
+  getItemCountInCart(element: Beverage): number {
+    return this._cartService.getItemCount(element);
+  }
 
+  
 }
