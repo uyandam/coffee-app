@@ -1,12 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';  
-import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';  
 import { Routes, Route } from 'react-router-dom';
-import About from './pages/About';
-import Home from './pages/Home';
-import Navigate from './pages/navigation/Navigate';
-import Menu from './pages/Menu';
-import Cart from './pages/Cart';
-import Checkout from './pages/Checkout';
+import Navigate from './pages/navigation/navigate';
+import Menu from './pages/menu';
+import Cart from './pages/cart';
+import Checkout from './pages/checkout';
 
 
 

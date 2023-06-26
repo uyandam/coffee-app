@@ -1,8 +1,8 @@
 import React, {FC} from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { deflate } from "zlib";
-import AboutPage from "../About";
-import HomePage from "../Home";
+import AboutPage from "../about";
+import HomePage from "../home";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
