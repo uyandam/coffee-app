@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { deflate } from "zlib";
 import AboutPage from "../about";
 import HomePage from "../home";
+import Menu from "../menu";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -34,6 +35,7 @@ const HeaderComponent = () =>  {
            <BrowserRouter>
                 <Routes>
                     <Route path='/' element={<HomePage/>}/>
+                    <Route path='/menu' element={<Menu/>}/>
                     <Route path='about' element={<AboutPage/>}/>
                 </Routes>
             </BrowserRouter> 

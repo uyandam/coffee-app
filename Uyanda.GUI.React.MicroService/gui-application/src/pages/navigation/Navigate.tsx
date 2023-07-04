@@ -9,7 +9,7 @@ const Navigate = () => {
   <nav>
         <ul>
            <li>
-              <NavLink to="/">Menu</NavLink>
+              <NavLink to="/menu">Menu</NavLink>
            </li>
            <li>
               <NavLink to="/cart">Cart</NavLink>
