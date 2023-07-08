@@ -1,0 +1,12 @@
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Application\bin\Debug\net6.0\Uyanda.Customer.Application.deps.json
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Application\bin\Debug\net6.0\Uyanda.Customer.Application.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Application\bin\Debug\net6.0\Uyanda.Customer.Application.pdb
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Application\obj\Debug\net6.0\Uyanda.Customer.Application.csproj.AssemblyReference.cache
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Application\obj\Debug\net6.0\Uyanda.Customer.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Application\obj\Debug\net6.0\Uyanda.Customer.Application.AssemblyInfoInputs.cache
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Application\obj\Debug\net6.0\Uyanda.Customer.Application.AssemblyInfo.cs
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Application\obj\Debug\net6.0\Uyanda.Customer.Application.csproj.CoreCompileInputs.cache
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Application\obj\Debug\net6.0\Uyanda.Customer.Application.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Application\obj\Debug\net6.0\refint\Uyanda.Customer.Application.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Application\obj\Debug\net6.0\Uyanda.Customer.Application.pdb
+C:\Users\uyand\source\repos\coffee-app\Uyanda.Customer.MicroService\Uyanda.Customer.Application\obj\Debug\net6.0\ref\Uyanda.Customer.Application.dll

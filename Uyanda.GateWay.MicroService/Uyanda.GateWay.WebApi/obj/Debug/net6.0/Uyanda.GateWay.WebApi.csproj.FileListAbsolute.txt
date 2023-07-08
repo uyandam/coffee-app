@@ -40,3 +40,11 @@ C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWa
 C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\bin\Debug\net6.0\Ocelot.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\obj\Debug\net6.0\staticwebassets\msbuild.Uyanda.GateWay.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\obj\Debug\net6.0\staticwebassets\msbuild.build.Uyanda.GateWay.WebApi.props
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Uyanda.GateWay.WebApi.props
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Uyanda.GateWay.WebApi.props
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\bin\Debug\net6.0\RestSharp.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\bin\Debug\net6.0\StackExchange.Redis.dll

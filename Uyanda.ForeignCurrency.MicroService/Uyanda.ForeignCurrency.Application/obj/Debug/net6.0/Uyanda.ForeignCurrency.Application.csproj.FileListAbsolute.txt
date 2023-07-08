@@ -1,0 +1,12 @@
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Application\bin\Debug\net6.0\Uyanda.ForeignCurrency.Application.deps.json
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Application\bin\Debug\net6.0\Uyanda.ForeignCurrency.Application.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Application\bin\Debug\net6.0\Uyanda.ForeignCurrency.Application.pdb
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Application\obj\Debug\net6.0\Uyanda.ForeignCurrency.Application.csproj.AssemblyReference.cache
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Application\obj\Debug\net6.0\Uyanda.ForeignCurrency.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Application\obj\Debug\net6.0\Uyanda.ForeignCurrency.Application.AssemblyInfoInputs.cache
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Application\obj\Debug\net6.0\Uyanda.ForeignCurrency.Application.AssemblyInfo.cs
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Application\obj\Debug\net6.0\Uyanda.ForeignCurrency.Application.csproj.CoreCompileInputs.cache
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Application\obj\Debug\net6.0\Uyanda.ForeignCurrency.Application.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Application\obj\Debug\net6.0\refint\Uyanda.ForeignCurrency.Application.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Application\obj\Debug\net6.0\Uyanda.ForeignCurrency.Application.pdb
+C:\Users\uyand\source\repos\coffee-app\Uyanda.ForeignCurrency.MicroService\Uyanda.ForeignCurrency.Application\obj\Debug\net6.0\ref\Uyanda.ForeignCurrency.Application.dll

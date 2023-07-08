@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Uyanda.ForeignCurrency.WebApi.props" />
+</Project>

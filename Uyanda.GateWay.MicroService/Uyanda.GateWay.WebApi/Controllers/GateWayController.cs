@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Uyanda.GateWay.Application.Microservices.Models;
 using Uyanda.GateWay.Application.Microservices.Services;
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -25,6 +26,20 @@ namespace Uyanda.GateWay.WebApi.Controllers
 
                 return Ok(result);
 
+            }catch (Exception ex)
+            {
+                return StatusCode(500, ex);
+            }
+        }
+
+        [HttpPost("GetCurrencyExchangeRate")]
+        public async Task<IActionResult> ExchangeRate(ExchangeRateModel exchangeRate)
+        {
+            try
+            {
+                var result = await gateWayManagementService.ExchangeRate(exchangeRate);
+
+                return Ok(result);
             }catch (Exception ex)
             {
                 return StatusCode(500, ex);

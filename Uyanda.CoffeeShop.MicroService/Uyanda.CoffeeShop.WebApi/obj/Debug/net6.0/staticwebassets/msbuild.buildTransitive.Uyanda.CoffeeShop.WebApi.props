@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Uyanda.CoffeeShop.WebApi.props" />
+</Project>

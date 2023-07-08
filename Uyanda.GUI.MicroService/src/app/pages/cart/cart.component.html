@@ -1,0 +1,25 @@
+<!-- <p>cart works!</p> -->
+<div class="col-xs-8" class="list-group">
+
+    <li *ngFor="let item of _cart" class="list-group-item list-group-item-primary">
+        <div>
+            <div name="name">
+              Beverage: {{item.beverageName.name}}
+            </div>
+            
+            <div name="cost">
+              Cost: R{{item.price.price}}
+            </div>
+      
+            <div name="size">
+              Size: {{item.beverageSize.name}}
+            </div>
+
+            <div name="number">
+                Count: {{item.count}}
+            </div>
+      
+          </div>
+    </li>
+
+</div>

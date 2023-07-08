@@ -24,6 +24,9 @@ namespace Uyanda.CoffeeShop.Persistence.Mapping
 
             CreateMap<BeverageSizeModel, BeverageSizeEntity>();
             CreateMap<BeverageSizeEntity, BeverageSizeModel>();
+
+            CreateMap<PriceModel, PriceEntity>();
+            CreateMap<PriceEntity, PriceModel>();
         }
     }
 }

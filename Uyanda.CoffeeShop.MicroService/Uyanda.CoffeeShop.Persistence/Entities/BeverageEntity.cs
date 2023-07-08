@@ -19,12 +19,14 @@ namespace Uyanda.CoffeeShop.Persistence.Entities
 
         public BeverageTypeEntity BeverageType { get; set; }
 
-       
-
         public int BeverageSizeId { get; set; }
 
         public BeverageSizeEntity BeverageSize { get; set; }
 
-        public decimal Price { get; set; }
+        public int PriceId { get; set; }
+
+        public PriceEntity Price { get; set; }
+
+        public int Count { get; set; }
     }
 }

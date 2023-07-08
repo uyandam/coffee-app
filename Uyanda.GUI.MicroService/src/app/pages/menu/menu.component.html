@@ -1,0 +1,63 @@
+<!-- <p>menu works!</p> -->
+<!-- <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Options
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Dropdown item</a></li>
+      <li><a class="dropdown-item" href="#">Dropdown item</a></li>
+      <li><a class="dropdown-item" href="#">Dropdown item</a></li>
+    </ul>
+  </div>
+   -->
+<!-- 
+   <div>
+    <a routerLink="/cart">Go to Cart</a>
+   </div> -->
+
+<div class="col-xs-8" class="list-group">
+  <li *ngFor="let item of menu" class="list-group-item list-group-item-primary">
+    
+    <div>
+      <div name="name">
+        Beverage: {{item.beverageName.name}}
+      </div>
+      
+      <div name="cost">
+        Cost: R{{item.price.price}}
+      </div>
+
+      <div name="size">
+        Size: {{item.beverageSize.name}}
+      </div>
+
+      <div name="currency">
+        Currency: {{item.price.currency}}
+      </div>
+      
+      <!-- <div name="cart" >
+        Number in cart: {{item.count}}
+      </div> -->
+
+      <div name="cart" >
+        Number in cart: {{getItemCountInCart(item)}}
+      </div>
+
+      <label > Add/Remove items:
+
+        <input type="number" [(ngModel)]="item.count" name="count" min="0" max="100" required >
+
+      </label>
+
+    </div>
+
+    <button mat-raised-button class="btn btn-primary me-1" (click)="addToCart(item)">
+      Add to cart
+    </button>
+
+    <button mat-raised-button class="btn btn-primary" (click)="removeFromCart(item)">
+      Remove from cart
+    </button>
+  
+  </li>
+</div>

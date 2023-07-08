@@ -9,6 +9,19 @@ namespace Uyanda.CoffeeShop.Application.Features.BeverageManagement.Persistence
 {
     public interface IBeverageAccessor
     {
+        // 1. Menu
         Task<BeverageModel[]> GetMenuAsync();
+
+        // 2. Invoice
+
+
+
+        // 3. Orders
+
+        // 
+
+        // 4. Currency cache
+
+        //
     }
 }

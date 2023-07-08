@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "J4eM72u6AgOwpjbK9WASgLKOdF78SBkB9MON0ezd+P0=",
+  "Source": "Uyanda.ForeignCurrency.WebApi",
+  "BasePath": "_content/Uyanda.ForeignCurrency.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

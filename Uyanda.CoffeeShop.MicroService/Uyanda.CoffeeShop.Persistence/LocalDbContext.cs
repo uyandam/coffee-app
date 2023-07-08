@@ -58,15 +58,28 @@ namespace Uyanda.CoffeeShop.Persistence
 
             modelBuilder.Entity<BeverageEntity>()
                 .HasData(
-                    new BeverageEntity { Id = 1, BeverageNameId = 1, BeverageTypeId = 1, BeverageSizeId = 1, Price = 15 },
-                    new BeverageEntity { Id = 2, BeverageNameId = 2, BeverageTypeId = 1, BeverageSizeId = 1, Price = 25 },
-                    new BeverageEntity { Id = 3, BeverageNameId = 3, BeverageTypeId = 2, BeverageSizeId = 1, Price = 30 },
-                    new BeverageEntity { Id = 4, BeverageNameId = 1, BeverageTypeId = 1, BeverageSizeId = 2, Price = 10 },
-                    new BeverageEntity { Id = 5, BeverageNameId = 2, BeverageTypeId = 1, BeverageSizeId = 2, Price = 15 },
-                    new BeverageEntity { Id = 6, BeverageNameId = 3, BeverageTypeId = 2, BeverageSizeId = 2, Price = 20 },
-                    new BeverageEntity { Id = 7, BeverageNameId = 1, BeverageTypeId = 1, BeverageSizeId = 3, Price = 20 },
-                    new BeverageEntity { Id = 8, BeverageNameId = 2, BeverageTypeId = 1, BeverageSizeId = 3, Price = 30 },
-                    new BeverageEntity { Id = 9, BeverageNameId = 3, BeverageTypeId = 2, BeverageSizeId = 3, Price = 40 }
+                    new BeverageEntity { Id = 1, BeverageNameId = 1, BeverageTypeId = 1, BeverageSizeId = 1, PriceId = 1, Count = 1 },
+                    new BeverageEntity { Id = 2, BeverageNameId = 2, BeverageTypeId = 1, BeverageSizeId = 1, PriceId = 2, Count = 1 },
+                    new BeverageEntity { Id = 3, BeverageNameId = 3, BeverageTypeId = 2, BeverageSizeId = 1, PriceId = 3, Count = 1 },
+                    new BeverageEntity { Id = 4, BeverageNameId = 1, BeverageTypeId = 1, BeverageSizeId = 2, PriceId = 4, Count = 1 },
+                    new BeverageEntity { Id = 5, BeverageNameId = 2, BeverageTypeId = 1, BeverageSizeId = 2, PriceId = 5, Count = 1 },
+                    new BeverageEntity { Id = 6, BeverageNameId = 3, BeverageTypeId = 2, BeverageSizeId = 2, PriceId = 6, Count = 1 },
+                    new BeverageEntity { Id = 7, BeverageNameId = 1, BeverageTypeId = 1, BeverageSizeId = 3, PriceId = 7, Count = 1 },
+                    new BeverageEntity { Id = 8, BeverageNameId = 2, BeverageTypeId = 1, BeverageSizeId = 3, PriceId = 8, Count = 1 },
+                    new BeverageEntity { Id = 9, BeverageNameId = 3, BeverageTypeId = 2, BeverageSizeId = 3, PriceId = 9, Count = 1 }
+                );
+
+            modelBuilder.Entity<PriceEntity>()
+                .HasData(
+                    new PriceEntity { Id = 1, Currency = "ZAR", Price = 15},
+                    new PriceEntity { Id = 2, Currency = "ZAR", Price = 25},
+                    new PriceEntity { Id = 3, Currency = "ZAR", Price = 30},
+                    new PriceEntity { Id = 4, Currency = "ZAR", Price = 10},
+                    new PriceEntity { Id = 5, Currency = "ZAR", Price = 15},
+                    new PriceEntity { Id = 6, Currency = "ZAR", Price = 20},
+                    new PriceEntity { Id = 7, Currency = "ZAR", Price = 20},
+                    new PriceEntity { Id = 8, Currency = "ZAR", Price = 30},
+                    new PriceEntity { Id = 9, Currency = "ZAR", Price = 40}
                 );
 
         }
@@ -79,5 +92,6 @@ namespace Uyanda.CoffeeShop.Persistence
 
         public DbSet<BeverageSizeEntity> BeverageSizes { get; set; }
 
+        public DbSet<PriceEntity> Prices { get; set; }
     }
 }

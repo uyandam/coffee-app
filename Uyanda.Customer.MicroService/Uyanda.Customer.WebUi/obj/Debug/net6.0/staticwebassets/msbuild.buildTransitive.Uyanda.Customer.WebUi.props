@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Uyanda.Customer.WebUi.props" />
+</Project>
