@@ -7,6 +7,7 @@ const Menu = () => {
         (res) => {
             if(res.status === 200) {
                 console.log(res);
+                // console.log(res.result);
             } else {
                 console.log(res);
                 
@@ -15,6 +16,8 @@ const Menu = () => {
     )
 
     menuItems();
+
+    
 
     return(
         <>

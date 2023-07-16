@@ -4,6 +4,7 @@ import Navigate from './pages/navigation/navigate';
 import Menu from './pages/menu';
 import Cart from './pages/cart';
 import Checkout from './pages/checkout';
+import HomePage from './pages/home';
 
 
 
@@ -12,6 +13,7 @@ const App = () => {
      <>
         <Navigate />
         <Routes>
+            <Route path="/" element={<HomePage/>}/>
            <Route path="/menu" element={<Menu />} />
            <Route path="/cart" element={<Cart />} />
            <Route path="/checkout" element={<Checkout />} />

@@ -8,6 +8,9 @@ const Navigate = () => {
   return (
   <nav>
         <ul>
+            <li>
+               <NavLink to='/'>Home</NavLink>
+            </li>
            <li>
               <NavLink to="/menu">Menu</NavLink>
            </li>

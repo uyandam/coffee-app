@@ -25,19 +25,30 @@ headers: {
 method: 'post'
 }
 
+// export function MenuItems() {
+//     const [menuObjects, setMenuObjects] = useState([])
+// }
+
 //helper function to be exported
 export  const getMenu = async (): Promise<any> =>{
-  return await axios({
-      ...postConfig,
-      url: "https://localhost:7009/api/Gateway/menu"
-  }).then ( (response) => {
-      console.log(response)
-      return {
-          status: response.status,
-          data: response.data
-      }
+    return await axios({
+        ...postConfig,
+        url: "https://localhost:7009/api/Gateway/menu"
+    }).then ( (response) => {
+    //   console.log(response)
+        
+    //   const [menuObjects, setMenuObjects] = useState({
+    //     status: response.status,
+    //     data: response.data
+    //   })
+
+
+        return {
+            status: response.status,
+            data: response.data
+        }
   }).catch((error) =>{
-      console.log(error)
+    //   console.log(error)
       return {
           status: error.status,
           data: error.response
