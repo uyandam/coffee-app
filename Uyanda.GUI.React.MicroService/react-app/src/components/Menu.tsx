@@ -13,16 +13,6 @@ interface Prop {
 }
 
 const Menu = ({ title = "boom fist", beverages }: Prop) => {
-  // const titleName = "Menu items";
-  // const [beverages, setBeverages] = useState<Beverage[] | null>();
-  // useEffect(() => {
-  //   axios.post(baseUrl + "menu", {}).then((response) => {
-  //     console.log("Status:", response.status);
-  //     console.log("Data:", response.data);
-  //     setBeverages(response.data);
-  //   });
-  // }, []);
-
   return (
     <>
       <div>

@@ -9,8 +9,8 @@ const App = () => {
   const [beverages, setBeverages] = useState<Beverage[] | undefined>();
   useEffect(() => {
     axios.post(baseUrl + "menu", {}).then((response) => {
-      console.log("Status:", response.status);
-      console.log("Data:", response.data);
+      // console.log("Status:", response.status);
+      // console.log("Data:", response.data);
       setBeverages(response.data);
     });
   }, []);

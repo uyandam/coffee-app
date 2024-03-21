@@ -1,7 +1,11 @@
 import Menu from "../components/Menu";
 import { Beverage } from "../models/beverage.model";
 
-const Home = ({ beverages }: { beverages: Beverage[] | undefined }) => {
+interface Props {
+  beverages: Beverage[] | undefined;
+}
+
+const Home = ({ beverages }: Props) => {
   console.log("------------------------------------");
 
   console.log(beverages);
