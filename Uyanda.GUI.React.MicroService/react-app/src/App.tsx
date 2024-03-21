@@ -1,22 +1,32 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
-import Layout from "./pages/Layout";
- 
+import axios from "axios";
+import { useState, useEffect } from "react";
+import { Beverage } from "./models/beverage.model";
+import { baseUrl } from "./utils/constants";
 
+const App = () => {
+  const [beverages, setBeverages] = useState<Beverage[] | undefined>();
+  useEffect(() => {
+    axios.post(baseUrl + "menu", {}).then((response) => {
+      console.log("Status:", response.status);
+      console.log("Data:", response.data);
+      setBeverages(response.data);
+    });
+  }, []);
 
-function App() {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home beverages={beverages} />,
+    },
+  ]);
+
   return (
     <>
-    <h1>function app</h1>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout/>}>
-            <Route index element={<Home />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <RouterProvider router={router} />
     </>
   );
-}
+};
 
 export default App;

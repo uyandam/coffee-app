@@ -1,2 +1,1 @@
-export const menuBaseUrl = "https://localhost:7009/api/GateWay/"
-
+export const baseUrl = "https://localhost:7009/api/GateWay/";
