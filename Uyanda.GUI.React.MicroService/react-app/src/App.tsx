@@ -6,19 +6,20 @@ import { Beverage } from "./models/beverage.model";
 import { baseUrl } from "./utils/constants";
 
 const App = () => {
-  const [beverages, setBeverages] = useState<Beverage[] | undefined>();
+  //get beverages items
+  const [beverages, setBeverages] = useState<Beverage[]>([]);
   useEffect(() => {
     axios.post(baseUrl + "menu", {}).then((response) => {
-      // console.log("Status:", response.status);
-      // console.log("Data:", response.data);
       setBeverages(response.data);
     });
   }, []);
 
+  const [cart, setCart] = useState<Beverage[]>([]);
+
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home beverages={beverages} />,
+      element: <Home beverages={beverages} cart={cart} />,
     },
   ]);
 

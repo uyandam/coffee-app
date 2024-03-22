@@ -1,11 +1,8 @@
-import React, { useEffect, useState } from "react";
 import Title from "./Title";
 import BeverageItem from "./beverageComponents/BeverageItem";
 import { Beverage } from "../models/beverage.model";
 import RemoveBeverageItem from "./beverageComponents/RemoveBeverageItem";
 import AddBeverageItem from "./beverageComponents/AddBeverageItem";
-import axios from "axios";
-import { baseUrl } from "../utils/constants";
 
 interface Prop {
   title: string;

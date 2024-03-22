@@ -1,20 +1,27 @@
+import Cart from "../components/Cart";
 import Menu from "../components/Menu";
 import { Beverage } from "../models/beverage.model";
 
 interface Props {
-  beverages: Beverage[] | undefined;
+  beverages: Beverage[];
+  cart: Beverage[];
 }
 
-const Home = ({ beverages }: Props) => {
-  console.log("------------------------------------");
-
-  console.log(beverages);
-
-  console.log("------------------------------------");
-
+const Home = ({ beverages, cart }: Props) => {
   return (
     <>
-      <Menu title={"Menu Beverage"} beverages={beverages} />
+      <div>
+        <div className="container">
+          <div className="row">
+            <div className="col-sm">
+              <Menu title={"Menu Beverage"} beverages={beverages} />
+            </div>
+            <div className="col-sm">
+              <Cart cart={cart} />
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
