@@ -44,9 +44,9 @@ const Menu = ({ title = "boom fist", cart, addToCart, beverages }: Props) => {
                 />
                 <div className="container">
                   <div className="row">
-                    <div className="col-sm">
+                    {/* <div className="col-sm">
                       <RemoveBeverageItem />{" "}
-                    </div>
+                    </div> */}
 
                     <div className="col-sm">
                       <AddBeverageItem

@@ -16,7 +16,7 @@ const Home = ({ cart, addToCart, beverages }: Props) => {
           <div className="row">
             <div className="col-sm">
               <Menu
-                title={"Menu Beverage"}
+                title={"Menu items"}
                 beverages={beverages}
                 cart={cart}
                 addToCart={addToCart}
