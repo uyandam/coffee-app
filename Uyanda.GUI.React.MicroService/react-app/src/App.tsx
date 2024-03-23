@@ -22,10 +22,27 @@ const App = () => {
     });
   };
 
+  const removeFromCart = (itemIndex: number): void => {
+    const index = itemIndex;
+    if (index !== -1) {
+      // Remove the item from the cart using splice
+      cart.splice(index, 1);
+      // Update the state with the modified cart
+      setCart([...cart]);
+    }
+  };
+
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home beverages={beverages} cart={cart} addToCart={addToCart} />,
+      element: (
+        <Home
+          beverages={beverages}
+          cart={cart}
+          addToCart={addToCart}
+          removeFromCart={removeFromCart}
+        />
+      ),
     },
   ]);
 

@@ -1,9 +1,21 @@
 import React from "react";
 
-const RemoveBeverageItem = () => {
+interface Props {
+  itemId: number;
+  removeFromCart(itemIdToRemove: number): void;
+}
+
+const RemoveBeverageItem = ({ itemId, removeFromCart }: Props) => {
+  const handleRemoveItemEvent = () => {
+    removeFromCart(itemId);
+  };
   return (
     <>
-      <button type="button" className="btn btn-dark">
+      <button
+        type="button"
+        className="btn btn-dark"
+        onClick={handleRemoveItemEvent}
+      >
         Remove from cart
       </button>
     </>

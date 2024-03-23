@@ -6,9 +6,10 @@ interface Props {
   beverages: Beverage[];
   cart: Beverage[];
   addToCart(item: Beverage, cart: Beverage[]): void;
+  removeFromCart(itemIdToRemove: number): void;
 }
 
-const Home = ({ cart, addToCart, beverages }: Props) => {
+const Home = ({ cart, addToCart, beverages, removeFromCart }: Props) => {
   return (
     <>
       <div>
@@ -23,7 +24,7 @@ const Home = ({ cart, addToCart, beverages }: Props) => {
               />
             </div>
             <div className="col-sm">
-              <Cart cart={cart} />
+              <Cart cart={cart} removeFromCart={removeFromCart} />
             </div>
           </div>
         </div>
