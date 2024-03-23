@@ -14,7 +14,12 @@ const Cart = ({ cart }: Props) => {
         {cart.length > 0 ? (
           <ul>
             {cart.map((item, index) => (
-              <li key={index}>{item.beverageName.name}</li>
+              <li
+                key={item.id}
+                className="list-group-item p-3 mb-2 bg-primary text-white"
+              >
+                {item.beverageName.name}
+              </li>
             ))}
           </ul>
         ) : (
