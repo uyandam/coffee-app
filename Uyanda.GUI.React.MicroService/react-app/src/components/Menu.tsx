@@ -4,12 +4,14 @@ import { Beverage } from "../models/beverage.model";
 import RemoveBeverageItem from "./beverageComponents/RemoveBeverageItem";
 import AddBeverageItem from "./beverageComponents/AddBeverageItem";
 
-interface Prop {
+interface Props {
   title: string;
-  beverages: Beverage[] | undefined;
+  beverages: Beverage[];
+  cart: Beverage[];
+  addToCart(item: Beverage, cart: Beverage[]): void;
 }
 
-const Menu = ({ title = "boom fist", beverages }: Prop) => {
+const Menu = ({ title = "boom fist", cart, addToCart, beverages }: Props) => {
   return (
     <>
       <div>
@@ -47,7 +49,11 @@ const Menu = ({ title = "boom fist", beverages }: Prop) => {
                     </div>
 
                     <div className="col-sm">
-                      <AddBeverageItem />
+                      <AddBeverageItem
+                        addToCart={addToCart}
+                        cart={cart}
+                        item={item}
+                      />
                     </div>
                   </div>
                 </div>

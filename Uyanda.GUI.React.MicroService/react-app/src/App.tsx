@@ -16,10 +16,16 @@ const App = () => {
 
   const [cart, setCart] = useState<Beverage[]>([]);
 
+  const addToCart = (item: Beverage, cart: Beverage[]) => {
+    setCart((cart) => {
+      return [...cart, item];
+    });
+  };
+
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home beverages={beverages} cart={cart} />,
+      element: <Home beverages={beverages} cart={cart} addToCart={addToCart} />,
     },
   ]);
 
