@@ -11,5 +11,7 @@ namespace Uyanda.GateWay.Application.Microservices.Services
     public interface IGateWayManagementService
     {
         Task<BeverageModel[]> MenuAsync();
+
+        Task<ExchangeRateModel> ExchangeRate(ExchangeRateModel exchangeRate);
     }
 }
