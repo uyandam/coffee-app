@@ -24,5 +24,13 @@ namespace Uyanda.CoffeeShop.Application.Features.BeverageManagement.Services
 
             return new GetMenuResult { menu = result };
         }
+
+        public async Task<PlaceOrderResult> PlaceOrderAsync(PlaceOrderCommand order)
+        {
+
+        }
+
+
+
     }
 }

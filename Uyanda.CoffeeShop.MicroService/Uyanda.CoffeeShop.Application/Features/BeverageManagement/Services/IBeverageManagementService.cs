@@ -11,17 +11,17 @@ namespace Uyanda.CoffeeShop.Application.Features.BeverageManagement.Services
 {
     public interface IBeverageManagementService
     {
-        Task<GetMenuResult> GetMenuAsync();
-
 
         // 1. Menu
+        Task<GetMenuResult> GetMenuAsync();
+
 
         // 2. Invoice
 
 
         // 3. Orders
-
-        // 
+        Task<PlaceOrderResult> PlaceOrderAsync(PlaceOrderCommand order);
+        
 
         // 4. Currency cache
 

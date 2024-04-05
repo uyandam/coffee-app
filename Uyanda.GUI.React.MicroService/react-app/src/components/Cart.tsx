@@ -1,4 +1,3 @@
-import React from "react";
 import { Beverage } from "../models/beverage.model";
 import BeverageItem from "./beverageComponents/BeverageItem";
 import RemoveBeverageItem from "./beverageComponents/RemoveBeverageItem";
