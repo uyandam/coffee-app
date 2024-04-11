@@ -28,17 +28,15 @@ const BeverageItem = ({
             <td>{beverageSize}</td>
             <td>
               {" "}
-              {"R "} {price}
+              {"R "}
+              {price}
             </td>
-            <td>
-              {" "}
-              {showQuantity && count && (
-                <td>
-                  {"Quantity: "}
-                  {count}
-                </td>
-              )}
-            </td>
+            {showQuantity && count && (
+              <td>
+                {"Quantity: "}
+                {count}
+              </td>
+            )}
           </tr>
         </tbody>
       </table>
