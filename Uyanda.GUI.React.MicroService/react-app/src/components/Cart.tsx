@@ -18,7 +18,8 @@ const Cart = ({ cart, removeFromCart }: Props) => {
           <ul>
             {cart.map((item, index) => (
               <li
-                key={uuidv4()}
+                // key={uuidv4()}
+                key={item.id}
                 className="list-group-item p-3 mb-2 bg-primary text-white"
               >
                 <BeverageItem
