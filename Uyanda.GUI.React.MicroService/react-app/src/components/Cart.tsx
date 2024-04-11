@@ -1,4 +1,3 @@
-import React from "react";
 import { Beverage } from "../models/beverage.model";
 import BeverageItem from "./beverageComponents/BeverageItem";
 import RemoveBeverageItem from "./beverageComponents/RemoveBeverageItem";
@@ -19,7 +18,8 @@ const Cart = ({ cart, removeFromCart }: Props) => {
           <ul>
             {cart.map((item, index) => (
               <li
-                key={uuidv4()}
+                // key={uuidv4()}
+                key={item.id}
                 className="list-group-item p-3 mb-2 bg-primary text-white"
               >
                 <BeverageItem
@@ -28,6 +28,7 @@ const Cart = ({ cart, removeFromCart }: Props) => {
                   beverageSize={item.beverageSize.name}
                   price={item.price.price}
                   count={item.count}
+                  showQuantity={true}
                 />
                 <RemoveBeverageItem
                   itemId={index}

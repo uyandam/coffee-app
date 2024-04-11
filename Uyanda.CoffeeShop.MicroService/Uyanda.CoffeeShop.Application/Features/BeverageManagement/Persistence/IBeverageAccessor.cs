@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Uyanda.CoffeeShop.Application.Features.BeverageManagement.Models;
+using Uyanda.CoffeeShop.Application.Features.BeverageManagement.Requests.Results;
+using Uyanda.CoffeeShop.Application.Features.BeverageManagement.Requests;
 
 namespace Uyanda.CoffeeShop.Application.Features.BeverageManagement.Persistence
 {
@@ -18,7 +20,7 @@ namespace Uyanda.CoffeeShop.Application.Features.BeverageManagement.Persistence
 
         // 3. Orders
 
-        // 
+        //Task<PlaceOrderResult> PlaceOrderAsync(PlaceOrderCommand order);
 
         // 4. Currency cache
 

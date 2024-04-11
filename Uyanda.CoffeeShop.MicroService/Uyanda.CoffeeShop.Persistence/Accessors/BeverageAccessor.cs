@@ -9,7 +9,8 @@ using AutoMapper;
 using System;
 using Uyanda.CoffeeShop.Application.Features.BeverageManagement.Models;
 using Microsoft.EntityFrameworkCore;
-
+using Uyanda.CoffeeShop.Application.Features.BeverageManagement.Requests.Results;
+using Uyanda.CoffeeShop.Application.Features.BeverageManagement.Requests;
 
 namespace Uyanda.CoffeeShop.Persistence.Accessors
 {
@@ -37,8 +38,17 @@ namespace Uyanda.CoffeeShop.Persistence.Accessors
 
             return menu.Select(ToModel).ToArray();
         }
+
+
+        //Task<PlaceOrderResult> PlaceOrderAsync(PlaceOrderCommand order)
+        //{
+        //    order.cart.Date = DateTime.Now;
+
             
-      
+
+        //}
+
+
 
         private BeverageTypeEntity ToEntity (BeverageTypeModel model) => mapper.Map<BeverageTypeEntity>(model);
         private BeverageTypeModel ToModel (BeverageTypeEntity entity) => mapper.Map<BeverageTypeModel>(entity);
@@ -49,6 +59,9 @@ namespace Uyanda.CoffeeShop.Persistence.Accessors
         private BeverageEntity ToEntity(BeverageModel model) => mapper.Map<BeverageEntity>(model);
         private BeverageModel ToModel(BeverageEntity entity) => mapper.Map<BeverageModel>(entity);
 
-        
+        private CartEntity ToEntity(CartModel model) => mapper.Map<CartEntity>(model);
+        private CartModel ToModel(CartModel entity) => mapper.Map<CartModel>(entity);
+
+
     }
 }
