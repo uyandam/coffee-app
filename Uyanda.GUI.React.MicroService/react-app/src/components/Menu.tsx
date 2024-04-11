@@ -25,6 +25,7 @@ const Menu = ({ title = "boom fist", cart, addToCart, beverages }: Props) => {
               <th scope="col">Type</th>
               <th scope="col">Size</th>
               <th scope="col">Price</th>
+              {/* <th scope="col">Quantity</th> */}
             </tr>
           </thead>
         </table>
@@ -40,7 +41,7 @@ const Menu = ({ title = "boom fist", cart, addToCart, beverages }: Props) => {
                   beverageType={item.beverageType.name}
                   beverageSize={item.beverageSize.name}
                   price={item.price.price}
-                  count={item.count}
+                  // count={item.count}
                 />
                 <div className="container">
                   <div className="row">

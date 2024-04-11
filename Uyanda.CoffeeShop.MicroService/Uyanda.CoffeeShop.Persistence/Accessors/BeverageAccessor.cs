@@ -40,10 +40,13 @@ namespace Uyanda.CoffeeShop.Persistence.Accessors
         }
 
 
-        Task<PlaceOrderResult> PlaceOrderAsync(PlaceOrderCommand order)
-        {
+        //Task<PlaceOrderResult> PlaceOrderAsync(PlaceOrderCommand order)
+        //{
+        //    order.cart.Date = DateTime.Now;
 
-        }
+            
+
+        //}
 
 
 

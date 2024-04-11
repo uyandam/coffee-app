@@ -27,6 +27,7 @@ const Cart = ({ cart, removeFromCart }: Props) => {
                   beverageSize={item.beverageSize.name}
                   price={item.price.price}
                   count={item.count}
+                  showQuantity={true}
                 />
                 <RemoveBeverageItem
                   itemId={index}

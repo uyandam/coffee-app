@@ -20,7 +20,7 @@ namespace Uyanda.CoffeeShop.Application.Features.BeverageManagement.Services
 
 
         // 3. Orders
-        Task<PlaceOrderResult> PlaceOrderAsync(PlaceOrderCommand order);
+        //Task<PlaceOrderResult> PlaceOrderAsync(PlaceOrderCommand order);
         
 
         // 4. Currency cache

@@ -16,9 +16,28 @@ const App = () => {
 
   const [cart, setCart] = useState<Beverage[]>([]);
 
+  // const addToCart = (item: Beverage, cart: Beverage[]) => {
+  //   setCart((cart) => {
+  //     return [...cart, item];
+  //   });
+  // };
+
   const addToCart = (item: Beverage, cart: Beverage[]) => {
     setCart((cart) => {
-      return [...cart, item];
+      // Find the item in the cart
+      const existingItem = cart.find((cartItem) => cartItem.id === item.id);
+
+      if (existingItem) {
+        // If the item exists, increment the count
+        return cart.map((cartItem) =>
+          cartItem.id === item.id
+            ? { ...cartItem, count: cartItem.count + 1 }
+            : cartItem
+        );
+      } else {
+        // If the item doesn't exist, add it to the cart with a count of 1
+        return [...cart, { ...item, count: 1 }];
+      }
     });
   };
 

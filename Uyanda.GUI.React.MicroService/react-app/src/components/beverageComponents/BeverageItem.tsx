@@ -6,7 +6,8 @@ interface Props {
   beverageType: string;
   beverageSize: string;
   price: number;
-  count: number;
+  count?: number;
+  showQuantity?: boolean;
 }
 
 const BeverageItem = ({
@@ -15,6 +16,7 @@ const BeverageItem = ({
   beverageSize,
   price,
   count,
+  showQuantity,
 }: Props) => {
   return (
     <>
@@ -27,6 +29,15 @@ const BeverageItem = ({
             <td>
               {" "}
               {"R "} {price}
+            </td>
+            <td>
+              {" "}
+              {showQuantity && count && (
+                <td>
+                  {"Quantity: "}
+                  {count}
+                </td>
+              )}
             </td>
           </tr>
         </tbody>
