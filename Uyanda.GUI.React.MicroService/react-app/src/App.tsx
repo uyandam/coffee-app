@@ -16,12 +16,6 @@ const App = () => {
 
   const [cart, setCart] = useState<Beverage[]>([]);
 
-  // const addToCart = (item: Beverage, cart: Beverage[]) => {
-  //   setCart((cart) => {
-  //     return [...cart, item];
-  //   });
-  // };
-
   const addToCart = (item: Beverage, cart: Beverage[]) => {
     setCart((cart) => {
       // Find the item in the cart
@@ -42,10 +36,15 @@ const App = () => {
   };
 
   const removeFromCart = (itemIndex: number): void => {
-    const index = itemIndex;
-    if (index !== -1) {
+    const item = cart[itemIndex];
+    if (item.count > 1) {
+      // Subtract one from the count property
+      item.count -= 1;
+      // Update the state with the modified cart
+      setCart([...cart]);
+    } else if (item.count === 1) {
       // Remove the item from the cart using splice
-      cart.splice(index, 1);
+      cart.splice(itemIndex, 1);
       // Update the state with the modified cart
       setCart([...cart]);
     }
