@@ -4,6 +4,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { Beverage } from "./models/beverage.model";
 import { baseUrl } from "./utils/constants";
+import Checkout from "./pages/Checkout";
 
 const App = () => {
   //get beverages items
@@ -61,6 +62,10 @@ const App = () => {
           removeFromCart={removeFromCart}
         />
       ),
+    },
+    {
+      path: "/checkout",
+      element: <Checkout cart={cart} />, // Add the missing 'cart' prop
     },
   ]);
 

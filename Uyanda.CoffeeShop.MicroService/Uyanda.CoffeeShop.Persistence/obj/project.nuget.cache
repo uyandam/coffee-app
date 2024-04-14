@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2QSIzs9zS9Wcpwa8OYxTBW/qRKmhsVxgUBX7Qum1adF0y7KoHhdv49C+0vzyJOQsQFfFvg0HU+IxOe7Fc1rd8Q==",
+  "dgSpecHash": "yz2GOzzGXjPDaKpugE4KeF74eLUG2+8Duwdh1eOXlaJ+lPM8heahaI60DQnlLDf35oYxLXsdT7TKB2gC8eS4yQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\uyand\\source\\repos\\coffee-app\\Uyanda.CoffeeShop.MicroService\\Uyanda.CoffeeShop.Persistence\\Uyanda.CoffeeShop.Persistence.csproj",
   "expectedPackageFiles": [

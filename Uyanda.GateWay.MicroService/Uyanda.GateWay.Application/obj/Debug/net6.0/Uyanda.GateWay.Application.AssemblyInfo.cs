@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Uyanda.GateWay.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdb45845366803ccf3b0eee23acac598a0b9cf6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Uyanda.GateWay.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Uyanda.GateWay.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

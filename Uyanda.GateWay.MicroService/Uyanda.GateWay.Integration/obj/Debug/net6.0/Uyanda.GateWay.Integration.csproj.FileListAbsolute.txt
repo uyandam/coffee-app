@@ -12,4 +12,5 @@ C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWa
 C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Integration\obj\Debug\net6.0\ref\Uyanda.GateWay.Integration.dll
 C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Integration\bin\Debug\net6.0\Uyanda.GateWay.Application.dll
 C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Integration\bin\Debug\net6.0\Uyanda.GateWay.Application.pdb
-C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Integration\obj\Debug\net6.0\Uyanda.GateWay.Integration.csproj.CopyComplete
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Integration\obj\Debug\net6.0\Uyanda.GateWay.Integration.sourcelink.json
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Integration\obj\Debug\net6.0\Uyanda.G.253E5034.Up2Date

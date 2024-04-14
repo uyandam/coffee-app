@@ -10,3 +10,4 @@ C:\Users\uyand\source\repos\coffee-app\Uyanda.CoffeeShop.MicroService\Uyanda.Cof
 C:\Users\uyand\source\repos\coffee-app\Uyanda.CoffeeShop.MicroService\Uyanda.CoffeeShop.Application\obj\Debug\net6.0\refint\Uyanda.CoffeeShop.Application.dll
 C:\Users\uyand\source\repos\coffee-app\Uyanda.CoffeeShop.MicroService\Uyanda.CoffeeShop.Application\obj\Debug\net6.0\Uyanda.CoffeeShop.Application.pdb
 C:\Users\uyand\source\repos\coffee-app\Uyanda.CoffeeShop.MicroService\Uyanda.CoffeeShop.Application\obj\Debug\net6.0\ref\Uyanda.CoffeeShop.Application.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.CoffeeShop.MicroService\Uyanda.CoffeeShop.Application\obj\Debug\net6.0\Uyanda.CoffeeShop.Application.sourcelink.json

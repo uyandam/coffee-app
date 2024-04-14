@@ -19,7 +19,6 @@ C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWa
 C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\obj\Debug\net6.0\scopedcss\bundle\Uyanda.GateWay.WebApi.styles.css
-C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\obj\Debug\net6.0\Uyanda.GateWay.WebApi.csproj.CopyComplete
 C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\obj\Debug\net6.0\Uyanda.GateWay.WebApi.dll
 C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\obj\Debug\net6.0\refint\Uyanda.GateWay.WebApi.dll
 C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\obj\Debug\net6.0\Uyanda.GateWay.WebApi.pdb
@@ -48,3 +47,5 @@ C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWa
 C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\bin\Debug\net6.0\RestSharp.dll
 C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
 C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\bin\Debug\net6.0\StackExchange.Redis.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\obj\Debug\net6.0\Uyanda.GateWay.WebApi.sourcelink.json
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.WebApi\obj\Debug\net6.0\Uyanda.G.3ABBEDF0.Up2Date

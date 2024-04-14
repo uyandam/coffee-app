@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Uyanda.CoffeeShop.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdb45845366803ccf3b0eee23acac598a0b9cf6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Uyanda.CoffeeShop.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Uyanda.CoffeeShop.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

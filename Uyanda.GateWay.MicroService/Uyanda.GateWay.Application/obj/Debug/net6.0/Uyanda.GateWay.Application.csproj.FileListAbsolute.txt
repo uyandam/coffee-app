@@ -10,3 +10,4 @@ C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWa
 C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Application\obj\Debug\net6.0\refint\Uyanda.GateWay.Application.dll
 C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Application\obj\Debug\net6.0\Uyanda.GateWay.Application.pdb
 C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Application\obj\Debug\net6.0\ref\Uyanda.GateWay.Application.dll
+C:\Users\uyand\source\repos\coffee-app\Uyanda.GateWay.MicroService\Uyanda.GateWay.Application\obj\Debug\net6.0\Uyanda.GateWay.Application.sourcelink.json

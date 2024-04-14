@@ -25,7 +25,8 @@ namespace Uyanda.CoffeeShop.Application.Features.BeverageManagement.Services
 
         // 4. Currency cache
 
-        //
+        // 5. Currency conversion
+
 
     }
 }

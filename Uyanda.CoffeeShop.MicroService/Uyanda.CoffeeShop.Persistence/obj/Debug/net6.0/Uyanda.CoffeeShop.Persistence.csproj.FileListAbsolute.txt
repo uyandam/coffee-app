@@ -12,6 +12,7 @@ C:\Users\uyand\source\repos\coffee-app\Uyanda.CoffeeShop.MicroService\Uyanda.Cof
 C:\Users\uyand\source\repos\coffee-app\Uyanda.CoffeeShop.MicroService\Uyanda.CoffeeShop.Persistence\obj\Debug\net6.0\ref\Uyanda.CoffeeShop.Persistence.dll
 C:\Users\uyand\source\repos\coffee-app\Uyanda.CoffeeShop.MicroService\Uyanda.CoffeeShop.Persistence\bin\Debug\net6.0\Uyanda.CoffeeShop.Application.dll
 C:\Users\uyand\source\repos\coffee-app\Uyanda.CoffeeShop.MicroService\Uyanda.CoffeeShop.Persistence\bin\Debug\net6.0\Uyanda.CoffeeShop.Application.pdb
-C:\Users\uyand\source\repos\coffee-app\Uyanda.CoffeeShop.MicroService\Uyanda.CoffeeShop.Persistence\obj\Debug\net6.0\Uyanda.CoffeeShop.Persistence.csproj.CopyComplete
 C:\Users\uyand\source\repos\coffee-app\Uyanda.CoffeeShop.MicroService\Uyanda.CoffeeShop.Persistence\bin\Debug\net6.0\Uyanda.CoffeeShop.Persistence.runtimeconfig.json
 C:\Users\uyand\source\repos\coffee-app\Uyanda.CoffeeShop.MicroService\Uyanda.CoffeeShop.Persistence\obj\Debug\net6.0\Uyanda.CoffeeShop.Persistence.genruntimeconfig.cache
+C:\Users\uyand\source\repos\coffee-app\Uyanda.CoffeeShop.MicroService\Uyanda.CoffeeShop.Persistence\obj\Debug\net6.0\Uyanda.CoffeeShop.Persistence.sourcelink.json
+C:\Users\uyand\source\repos\coffee-app\Uyanda.CoffeeShop.MicroService\Uyanda.CoffeeShop.Persistence\obj\Debug\net6.0\Uyanda.C.FFD38261.Up2Date
